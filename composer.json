@@ -1,0 +1,14 @@
+{
+    "name": "puzzle/fr",
+    "authors": [
+        {
+            "name": "Hermi Montassar",
+            "email": "Hermi@Hermi.com"
+        }
+    ],
+    "extra": {
+        "sylius-theme": {
+            "title": "Puzzle fr"
+        }
+    }
+}
