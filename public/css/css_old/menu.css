@@ -1,0 +1,82 @@
+/* Menu Principal */
+div#menuSup{ position:relative; width:1000px; height:13px; background-color:#FFF; }
+div#menuSup img{ width:29px; height:13px; float:right;margin-right: 96px;}
+div#menu{ position:relative; width:1000px; height:45px; z-index:20;  }
+div#menu ul{ margin:0; padding:0; overflow:hidden; list-style:none; }
+div#menu ul li.onglet{ display:block; float:left; font-family:Arial; margin:0; padding:0; height:45px;border-right:1px solid #ffffff}
+
+
+div#menu ul li.onglet .SousMenu{ display:none; overflow:hidden; position:absolute; z-index:20; left:0; right:0; top:45px }
+div#menu ul li.onglet .SousMenu ul{ float:left; }
+div#menu ul li.onglet div ul li{ display:block; }
+div#menu ul li.onglet div ul li a{ font-size:12px; line-height:15px; padding:2px; display:block; }		
+
+div#menu ul li.ongletmaison {width:38px;}
+div#menu ul li.theme{ width:64px;}
+div#menu ul li.taille{ width:83px}
+div#menu ul li.marque{width:67px;}
+div#menu ul li.format{width:64px;}
+div#menu ul li.auteur{width:97px;}
+div#menu ul li.age{width:63px; border:0px}
+div#menu ul li.puzzled{width:91px; }
+div#menu ul li.photo{width:55px; background-color:#ff7b05; border:0px}
+div#menu ul li.tapis{width:97px;}
+div#menu ul li.nouveaute{width:91px;}
+div#menu ul li.top{width:112px; background-color:#ff7b05;}
+div#menu ul li.exclu{width:65px;}
+div#menu ul li.promotion{width:67px;}
+
+div#menu ul li.promotion a.onglet_a_simple{background-color:#f67807;}
+
+a.onglet_a{ display:block; height:45px; text-align:center; color:#FFF;  font-size:14px;background-color:#ff7b05 ; }
+a.onglet_a_simple{ display:block; height:45px; text-align:center; color:#FFF;line-height:45px; font-size:14px;background-color:#ff7b05;}
+
+a.onglet_a :hover{ background-color:#f63a00 !important;}
+a.onglet_a_simple :hover{ background-color:#f63a00!important}
+
+.onglet_hover{ background-color:#f63a00!important}
+	
+/* Menu Principal - Blocs cachés */
+
+#MainMenu{ width:998px; height:auto;  border:1px solid #f69701; border-top:0; background-color:#FFF; }
+#MainMenu .ss_menu{ float:left; width:998px; height:auto; }
+#MainMenu a{ font-size:12px; }
+#MainMenu a:hover{ text-decoration:underline; }
+#MainMenu .TitreSousMenu{ width:933px; padding: 15px 0 0 0 ; float:left; }
+#MainMenu .SizeSousMenu{ font-size:20px; }
+
+
+div#menu ul li.onglet div ul.ColBlock1{ padding:0px 0 15px 15px; width:215px; clear:left; border-right: 1px solid #cccccc; margin-top:10px ; margin-bottom:15px }
+
+.titre-ss-menu {color:#ff6600; margin:18px 0 5px 0}
+.titre-ss-menu a {color:#ff6600}
+.titre-ss-menu2 {color:#ff6600; margin:0px 0 5px 0}
+.titre-ss-menu2 a {color:#ff6600}
+div#menu ul li.onglet div ul.ColBlockmarque1{ padding:0px 0 15px 15px; width:157px; clear:left; border-right: 1px solid #cccccc; margin-top:10px ; margin-bottom:15px; height:210px }
+div#menu ul li.onglet div ul.ColBlockmarque2{ padding:0px 0 15px 15px; width:154px; float:left; border-right: 1px solid #cccccc; margin-top:10px ; margin-bottom:15px ; height:216px }
+div#menu ul li.onglet div ul.ColBlockmarque3{ padding:0px 0 15px 15px; width:130px; float:left;margin-top:10px ; margin-bottom:15px ; height:150px }
+div#menu ul li.onglet div ul.ColBlock{  margin-top:10px ; padding:0px 0 15px 15px; width:180px; border-right: 1px solid #cccccc}
+div#menu ul li.onglet div ul.ColBlock2{ margin-top:10px ; padding:0px 0 15px 15px; width:230px;border-right: 1px solid #cccccc  }
+div#menu ul li.onglet div ul.ColBlock3{ margin-top:10px ; padding:0px 0 15px 15px; width:250px; border-right: 1px solid #cccccc }
+div#menu ul li.onglet div ul.ColBlock4{ margin-top:10px ; padding:0px 0 15px 15px; width:230px; border-right: 1px solid #cccccc ;}
+div#menu ul li.onglet div ul.ColBlock5{ margin-top:10px ; padding:0px 0 15px 15px; width:230px;}
+div#menu ul li.onglet div ul.ColBlock6{ margin-top:10px ; padding:0px 0 15px 15px; width:230px; border-right: 1px solid #cccccc ; min-height:150px}
+div#menu ul li.onglet div ul.ColBlock7{ margin-top:10px ; padding:0px 0 15px 15px; width:230px; border-right: 1px solid #cccccc ; min-height:115px}
+div#menu ul li.onglet div ul.ColBlock8{ margin-top:10px ; padding:0px 0 15px 15px; width:230px; border-right: 1px solid #cccccc ; min-height:57px}
+div#menu ul li.onglet div ul.ColBlock9{ margin-top:10px ; padding:0px 0 15px 15px; width:215px; border-right: 1px solid #cccccc }
+div#menu ul li.onglet div ul.ColBlockpromo{ padding:10px 0 0px 10px; width:235px;}
+div#menu ul li.onglet div ul.ColBlockpromo2{ margin-top:10px ; padding:0px 0 0px 15px; width:235px;}
+
+div#menu ul li.onglet div ul.ColBlockimg{ margin-top:10px ; padding:0px 4px; width:240px;}
+div#menu ul li.onglet div ul.ColBlockimg2{ margin-top:10px ; padding:0px 4px; width:240px; margin-left:13px}
+div#menu ul li.onglet div ul.ColBlockimg-new{padding:0px 4px; width:220px; margin-left:20px; margin-top: 20px;}
+
+.carre-menu{float: left; margin: 13px 10px 5px 16px;}
+
+div#menu ul li.onglet h2{ font-size:14px; font-weight:normal; height:45px}
+div#menu ul li.onglet h3 { font-size:12px; font-weight:normal; display:inline; line-height:15px}
+
+
+
+#piece-photo {position:absolute; top:-17px; left:466px; z-index:50; background-image:url(/images/onglet-piece.png);width:64px; height:47px; cursor:pointer; color:#ffffff; padding:20px 0 0 24px; font-size:14px}
+#piece-photo:hover{background-image:url(/images/onglet-piece2.png);}

@@ -1,0 +1,778 @@
+/* Balises générales */
+
+
+html{ background-attachment: fixed;background-color:#ffffff; background-image: url("/images/fond-fleur.jpg"); background-position: center top; background-repeat: no-repeat;}
+
+
+body{ width:1000px; height:auto; min-width:1000px; margin:0 auto; z-index:1; }
+#background{position:absolute; top:0; left:0; width:100%; min-height:690px; min-width:1000px; z-index:-1;  }
+form{ margin:0; padding:0; color:#333333 }
+
+*{ font-family:Arial, Helvetica, sans-serif; font-size:12px }
+h1{ margin:0; }
+h2{ font-size:1.3em; }
+h3{ font-size:1.2em; }
+h4{ font-size:16px; color:#EE6C03; }
+h5{ font-size:1em; }
+h6{ font-size:.9em; }
+h1,h2,h3,h4,h5,h6,ul{ margin:0; padding:0;}
+input{ font-size:1em; }
+
+a{ color:black; text-decoration:none; outline:none;color:#666666 }
+a:hover{ color:#ee6c03; }
+button{ outline:none; }
+label{}
+
+/* Balises optionnelles */
+.required{ color:red; font-size:1em; }
+.error{ color:red; margin-left:40px}
+.numeric{ text-align:right !important; }
+.numeric2{ text-align:center !important; color:#333333 !important}
+.alignc{ text-align:center !important;}
+.soldes{ color:#fff; padding:5px; background-color:#f00; font-size:15px; font-weight:bold;}
+.libelle{ font-size:15px; color:#EE6C03; }
+
+.lineseparator{ clear:left; height:24px; margin:0 15px; background:url(../images/design_elements/separateur_horiz_grey_white.gif) 0 4px repeat-x }
+/* ------------------------------- */
+/* ------- CLASSES A VERIFIER SI UTILISEES ---------- */
+/* ------------------------------- */
+
+/* FontStyles */
+
+.LittleGreyFontStyle12 { font-size:12px; color:#666666; font-weight:normal; }
+.LittleGreyFontStyle14 { font-size:14px; color:#666666; font-weight:normal; }
+.LittleGreyFontStyle26 { font-size:26px; color:#666666; font-weight:normal; }
+.LittleGreyFontStyle20 { font-size:20px; color:#666666; font-weight:normal; }
+.BiggySmallGreyFontStyle12 { font-size:12px; color:#666666; font-weight:bold; }
+
+.LittleBlackFontStyle12 { font-size:12px; color:#000000; font-weight:normal; }
+.LittleBlackFontStyle14 { font-size:14px; color:#000000; font-weight:normal; }
+.BiggySmallBlackFontStyle12 { font-size:12px; color:#000000; font-weight:bold; }
+
+.LittleBlueFontStyle12 { font-size:12px; color:#FF6600; font-weight:normal; }
+.LittleBlueFontStyle14 { font-size:14px; color:#FF6600; font-weight:normal; }
+
+.LittleRedFontStyle12 { font-size:12px; color:#e74c4e; font-weight:normal; }
+.LittleRedFontStyle14 { font-size:14px; color:#e74c4e; font-weight:normal; }
+.BiggySmallRedFontStyle12 { font-size:12px; color:#e74c4e; font-weight:bold; }
+
+.LittlePinkFontStyle12 { font-size:12px; color:#EE6C03; font-weight:normal; }
+.LittlePinkFontStyle14 { font-size:14px; color:#EE6C03; font-weight:normal; }
+.BiggySmallPinkFontStyle12 { font-size:12px; color:#EE6C03; font-weight:bold; }
+.BiggySmallPinkFontStyle14 { font-size:14px; color:#EE6C03; font-weight:bold; }
+
+.BigBlueTitle18{ color:#EE6C03; font-size:18px; }
+.BigBlueTitle14{ color:#EE6C03; font-size:14px; }
+.BigBlueTitle24{ color:#EE6C03; font-size:24px; font-weight:bold; letter-spacing:-1px; }
+
+
+
+.LittleorangeFontStyle11 { font-size:11px; color:#ee6c03; font-weight:normal; }
+.LittleorangeFontStyle12 { font-size:12px; color:#ee6c03; font-weight:normal; }
+.LittleorangeFontStyle14 { font-size:14px; color:#ee6c03; font-weight:normal; }
+
+
+
+/* ------------------------------- */
+/* ------- FIN CLASSES A VERIFIER SI UTILISEES ---------- */
+/* ------------------------------- */
+
+/* Classes de styles */
+.orange{color:#ee6c03}
+.orange a{color:#ee6c03}
+.blue{ color:#EE6C03 ; }
+.bluelink{ color:#ee6c03; text-decoration:underline; display:block; font-size:12px; }
+.bluelinknone{ color:#EE6C03; text-decoration:none; display:block; font-size:12px; }
+.grey{ color:#333333; }
+.red{ color:#FF3333; }
+.cleargrey{ color:#757575; }
+.white{ color:#ffffff; }
+.bold{ font-weight:bold; }
+.normal{ font-weight:normal; }
+.italic{ font-style:italic; }
+.underline{ text-decoration:underline; }
+.flft{ display:block; float:left; }
+.frgt{ display:block; float:right; }
+.displayBlock{display:block;}
+.quatorze{ font-size:14px; }
+
+.RedPrice{ color:#EE6C03; font-size:20px; font-weight:bold; }
+
+.BiggySmallBlueFontStyle14 { font-size:14px; color:#EE6C03; font-weight:bold; }
+.BigBlueTitle_24{ color:#EE6C03; font-size:24px; }
+
+/*COULEURS BOUTONS*/
+
+.bluebutton{ border-radius:3px; background-color:#EE6C03;  color:#ffffff; text-align:center; }
+
+.orangebutton{ border-radius:3px; background-color:#EE6C03; border:1px solid #ffac50; color:#ffffff; text-align:center; }
+.greybutton{ border-radius:3px;background-color:#858484;color:#ffffff; text-align:center; }
+.serenitebtn a:hover {color:#ffffff}
+.greenbutton{border-radius:3px;background-color:#86bb43;color:#ffffff; text-align:center; }
+
+
+/* --------------  HOMEPAGE  ----------------- */
+
+/* --------------  CLASS PODS HOMEPAGE  ----------------- */
+
+
+
+/* CUBE HOME */
+.cube-prod-acc { height:262px; width:157px; margin:4px 0 4px 8px; float:left; position:relative;}
+.cube-prod-acc .image{ float:left}
+.cube-prod-acc .nom { padding:5px; height:50px; float:left}
+.cube-prod-acc .nom a { font-size:11px}
+.cube-prod-acc .prix{ clear:left; height:30px; width:157px; margin:0px 0 0 0px; text-align:center}
+.cube-prod-acc .prix .promo{ display:inline-block; height:22px; width:45px; background: url("../images/reduc.jpg") no-repeat scroll 0 0 transparent; color:#FFF; font-weight:bold; text-align:center; font-size:13px; padding-top:4px;margin-right:0px}
+.cube-prod-acc .prix .prix-promo{ display:inline; font-size:18px; color:#ff780b; font-weight:bold }
+.cube-prod-acc .prix .prix-init{ display:inline; color:#999; text-decoration:line-through; padding:6px 0 0 0px }
+
+/* DESIGN PODS HOMEPAGE ET PAGES INTERNES */
+.PodGris{ box-shadow: 0px 0px 1px #999; border:1px solid #f0f0f0; border-radius:5px;}
+
+.PodBlanc{ box-shadow: 0px 0px 2px #999; border-radius:5px; background-color:#FFFFFF;}
+
+/* TAILLES FONTS UTILISES PAR PODS PP / TAPIS / SERVICES / AUTEURS / MARQUES */
+
+
+.SizeTitlePod-fi{ font-size:21px; text-shadow:1px 1px 0 #ffffff; }
+.SizeTitlePod{ font-size:24px; text-shadow:1px 1px 0 #ffffff; }
+.SizeTitlePod2{ font-size:18px; text-shadow:1px 1px 0 #ffffff; }
+.SizeTitlePod3{ font-size:16px; text-shadow:1px 1px 0 #ffffff; }
+.SizeSubTitlePod{ font-size:16px; font-weight:lighter; }
+.SizeSubTitlePod-fi{ font-size:13px; font-weight:lighter; }
+.SizeSubTitlePod2{ font-size:12px; font-weight:lighter; }
+
+/* HOMEPAGE PREMIERE LIGNE -------------- PUZZLE PHOTO ACCESSOIRES ET SERVICES */
+
+#HomePods{ width:1000px; height:390px; border-bottom:1px solid #cccccc; }
+#PuzzlePhoto,#TapisAccessoires,#Services { float:left; width:300px; height:350px; margin:10px 15px; }
+#PuzzlePhoto img,#TapisAccessoires img{ display:block; width:293px; height:213px; margin:10px 3px;}
+#PuzzlePhoto .Link,#TapisAccessoires .Link{ background:url(/images/home/fleche_grise.png) right no-repeat; display:block; width:300px; height:26px; text-decoration:none; }
+#PuzzlePhoto a .BlueLink,#TapisAccessoires a .BlueLink{ display:block; float:right; margin:6px 35px 0 0; font-size:14px; }
+#Services{ position:relative; }
+#Services .LivraisonOfferte,#Services .AvantagesFidelite,#Services .PaiementSecure{ height:100px; }
+#Services .LivraisonOfferte a{ padding: 5px 0 0 15px; }
+#Services .LivraisonOfferte img{ position:absolute; top:-9px; right:10px; }
+#Services .AvantagesFidelite{ margin:23px 0;}
+#Services .AvantagesFidelite a{ padding: 5px 0 0 125px; }
+#Services .AvantagesFidelite img{ position:absolute; top:131px; left:-15px; }
+#Services .PaiementSecure .cadenas{ position:absolute; top:260px; left:20px; }
+#Services .PaiementSecure .modes_paiement{ position:absolute; top:320px; left:100px; }
+
+/* POSITIONS UTILISES PAR POD PUZZLE PHOTO ET TAPIS */
+.TitlePod{ padding:10px 0 0 10px; }
+.TitleSubPod{  display:block; padding:5px 0 0 10px; }
+
+/* POSITIONS UTILISES PAR POD LIVRAISON */
+.TitlePod2{ padding:10px 0 0 15px; }
+.SubTitlePod2{ display:block; padding:5px 0 0 15px; }
+
+/* POSITIONS UTILISES PAR POD AVANTAGES FIDELITE */
+.TitlePod3{ padding:10px 0 0 125px; }
+.SubTitlePod3{ display:block; padding:5px 0 0 125px; }
+
+/* POSITIONS UTILISES PAR POD PAIEMENTS SECURISES */
+.TitlePod4{ padding:10px 0 0 100px; }
+.SubTitlePod4{ display:block; padding:5px 0 0 100px; }
+
+
+/* HOMEPAGE DEUXIEME LIGNE -------------- AUTEURS ET MARQUES */
+
+#HomeAutorsBrands{ width:1000px; height:410px; border-bottom:1px solid #cccccc; }
+#HomeAutorsBrands .Autors{ float:left; width:500px; height:410px; }
+#HomeAutorsBrands .Brands{ float:left; width:499px; height:410px; border-left:1px solid #cccccc; }
+#HomeAutorsBrands .Autors .PodAutors{ float:left; width:150px; height:140px; margin: 20px 0 0 12px; }
+#HomeAutorsBrands .Brands .PodBrands{ float:left; display:block; width:148px; height:91px; margin: 15px 0 0 15px; }
+
+
+/* LINK HOMEPAGE DEUXIEME LIGNE ET TROISIEME LIGNE --------------  */
+#HomeAutorsBrands .Autors .Link,#HomeAutorsBrands .Brands .Link,#Promotions .Link{ background:url(/images/home/fleche_grise.png) right no-repeat; display:block; float:right; height:26px; text-decoration:none; margin-top:10px; }
+#HomeAutorsBrands .Autors a .BlueLink,#HomeAutorsBrands .Brands a .BlueLink,#Promotions a .BlueLink{ display:block; float:right; margin:6px 35px 0 0; font-size:14px; }
+
+/* POSITIONS UTILISES PAR POD AUTEURS ET MARQUES */
+.TitlePodAutors, .TitlePodBrands{ padding:10px 10px 0 10px; float:left; }
+.SubTitlePodAutors,.SubTitlePodBrands{ display:block; padding:10px 10px 0 10px; float:left; width:300px; border-left:1px solid #cccccc; }
+
+/* HOMEPAGE LIVRAISON -------------- */
+
+#LivraisonBandeau{ background:url(/images/home/bg_liv_ban.png) repeat-x; width:1000px; height:35px;line-height: 35px; padding-left:220px; }
+#LivraisonBandeau .txt{ float:left; color:#FFF; font-size:16px; margin: 0 6px 0 0; }
+#LivraisonBandeau a{ color:#FFF; text-decoration:underline; display:block; }
+
+
+
+/* POSITIONS UTILISES PAR POD PROMOTIONS */
+.TitlePodPromo{ padding:10px 10px 0 10px; float:left; }
+.SubTitlePodPromo{ display:block; padding:10px 10px 0 10px; float:left; width:780px; border-left:1px solid #cccccc; }
+
+/* ------------------------------- */
+/* ------- A TRIER AU DESSUS ---------- */
+/* ------------------------------- */
+
+/* Centre Website (Menu gauche, Moteur de recherche et Page) */
+#middle{ height:auto; min-height:400px; background-color:white; overflow:hidden ; padding-top:8px; }
+#middle .content{ width:775px; float:right; margin-bottom:.8em; }
+#middle .full{ width:1000px; margin:auto auto; float:none; margin-bottom:.8em; padding-top:3px; }
+
+
+/* COMPTEUR */
+div.compteur{ position:absolute; right:59px; top:69px; width:265px; height:255px; background-image:url(/images/wrapper/compteur/FondCompteur.png); }
+.compteurChiffre{ float:left; margin-top:52px; }
+
+/* Page Newsletters */
+#Newsletters{float:left;}
+#Newsletters .titre{float:left; width:800px; font-size:24px; margin:40px 0 20px 110px;}
+#Newsletters .FormNews{float: left;margin: 0 0 20px 75px;padding-bottom: 20px;width: 845px; }
+#Newsletters .LabelMail{ margin: 33px 0 0 121px; }
+#Newsletters .InputMail{ margin:25px 0 0 10px; width:300px; height:20px; padding:0 0 0 10px; }
+#Newsletters .SubmitMail{ margin:25px 0 0 10px; }
+#Newsletters .txt-news{color:#666666; margin: 20px 0 0 9px; float:left}
+#Newsletters .news-ColBlock1 {float: left;height: 173px;list-style: none outside none; margin-top: 24px;  margin-bottom: 24px; padding: 0 0 0 26px;width: 185px;}
+#Newsletters .news-ColBlock1 li {height:20px;}
+
+
+#page{ overflow:hidden; margin:0px;}
+.noelement{ color:#333333; font-size:12px;}
+.noelementsearch{ color: #EE6C03;display: block;font-size: 12px;font-weight: bold;margin-bottom: 80px; }
+.divnoelementsearch{margin-left:15px}
+
+
+#page-client{ }
+#cube_wishlist2{ overflow:hidden; margin-left:30px;}
+#page .top-ventes{ block:display; width:710px; height:250px; float:left; text-align:left; margin:10px 0 25px 15px  }
+#page .top-ventes h2.titre{ color:#333333; font-size:14px; font-weight:normal; padding:0; margin-bottom:5px; font-family:verdana; margin-top:15px}
+
+#menu-droit{ block:display; float:right; width:225px; height:auto; vertical-align:top; margin-right:10px}
+#menu-droit .livraison{ block:display; float:right; width:225px; height:auto; margin-bottom:20px; margin-top:5px}
+#menu-droit .offre{ block:display; float:right; width:225px; margin-bottom:22px;}
+#menu-droit .newsletter{ block:display; float:right; width:225px; height:135px; background-image:url(/images/newsletter.jpg); margin-bottom:22px;}
+#menu-droit .newsletter form{ margin-top:104px; margin-left:15px;}
+
+#marque { margin:10px 10px 10px 5px; width:785px}
+#marque .image{ float:left; display:block; margin:0 10px 10px 0px; width:120px}
+#marque img{  float:left; display:block; margin:41px 10px 10px 0px; width:120px; border:1px solid#efefef }
+#marque .cat_title{  float:left;color:#000000; font-size:22px; font-weight:bold; width:790px;margin-bottom:12px; }
+#marque .cat_intro{ float:left;color:#333333; font-size:12px; text-align:left; width:605px; margin-left:10px ; text-align:justify}
+
+#licence { margin-top:10px; }
+#licence table{ max-width:500px; }
+#licence img{display: block; float: left; height: auto; margin:0 30px 15px 20px; width:auto;}
+#licence .cat_title a{color: #000000; font-size: 22px; font-weight: bold;}
+#licence .cat_title a:hover{ color: #000000; font-size: 22px;font-weight: bold;}
+#licence .cat_intro{ color: #333333; font-size: 12px; font-weight: normal; margin-left: 126px;text-align: justify;width: 600px; }
+
+
+
+#univers { margin-top:10px; }
+#univers table{ max-width:500px; }
+#univers img{display: block; float: left; height: auto; margin-bottom: 15px; margin-left: 20px; margin-right: 30px;width:auto;}
+#univers .cat_title a{color: #000000; font-size: 22px; font-weight: bold;}
+#univers .cat_title a:hover{ color: #000000; font-size: 22px;font-weight: bold;}
+#univers .cat_intro{ color: #333333; font-size: 12px; font-weight: normal; margin-left: 126px;text-align: justify;width: 600px; }
+
+/* Page categories et sous categories */
+#categorie img{ float:left; display:block; margin-left:20px; margin-right:30px;margin-bottom: 15px;}
+#categorie .cat_title{ color:#000000; font-size:22px; font-weight:bold; }
+#categorie .cat_intro{ color:#333333; width:600px; text-align:justify; margin-left:126px; font-weight:normal; font-size:12px; }
+#categorie .cat_intro strong{ font-size:12px; }
+
+/* Pagination */
+.pagination{ background: none repeat scroll 0 0 #303030;clear: both;height: 83px;margin: 10px 10px 20px 3px;overflow: hidden; padding:0;}
+.pagination .pagination_line1 {  background-color: #fff; clear: both;color: #333333;font-size: 12px;height: 29px; margin:0px;padding: 5px;}
+.pagination .pagination_line2 { border-image: none;border-style: none solid solid; clear: both;  overflow: hidden;  padding: 11px 5px 8px; text-align: right;}
+.pagination_line1 a.pg { font-size:16px; margin-left:2px; margin-right:2px; line-height:30px; font-weight:bold; color:#999; }
+.pagination a.pagination_a { display:block; width:150px; line-height:30px; font-weight:600; }
+.pagination div.pagination_pg { display:block;float:left;width:440px;text-align:center; }
+.pagination_line1 a.selected { color: #ee6c03; }
+.pagination select{ height:18px;}
+.pagination select option{ color:#333333; padding: 3px 0px 3px 6px; }
+.pagination .label-trier{ font-size:12px; font-weight:bold; color:#ffffff; overflow:hidden; line-height:16px;  float:left ;margin-right: 4px;margin-top: 5px;} 
+.pagination .label-choix{ font-size:12px; font-weight:bold; color:#ffffff; overflow:hidden; line-height:16px;  float:left;}
+.pagination .right{ float:right; margin-left:10px; margin-right:5px; }
+.pagination a.bouton { background-repeat: no-repeat; width:100px;display:block;border:solid 1px #cccccc;padding:6px;margin:0px;font-weight:bold;}
+
+
+#search-marque {overflow:hidden;margin-bottom:15px;margin-right:10px}
+#search-marque .lien-boutiques{ height:15px; background-color:#cc0000; color:#fff;padding:6px; font-weight:bold; float:right; }
+#search-marque .lien-boutiques a{ text-decoration:none;color:#fff; font-weight:bold; text-decoration:underline; font-size:12px}
+#search-marque .lien-img{float:right; }
+
+/* Pagination Categories */
+.pagination_categorie{ text-align:right; overflow:hidden; line-height:15px; background-image:url(/images/fond-pagination.png); padding:5px; margin-left:0px; margin-right:15px; clear:both; margin-bottom:10px; }
+.pagination_categorie a{ padding:.2em; color:#333333; margin:0 2px; }
+.pagination_categorie a:hover{ padding:.2em; color:#00abdc; }
+.pagination_categorie a.selected{  color:#fff; display:inline-block; padding:2px; margin:0px; text-align:center; width:10px; background-color:#00abdc; line-height:11px;}
+.pagination_categorie .label{ font-size:13px; color:#333333; font-weight:bold;}
+.pagination_categorie .left{ float:left; margin-right:25px;  }
+.pagination_categorie select{ height: 18px;}
+.pagination_categorie select option{ color:#333333;  }
+
+/* Pour la barre d'avis */
+.star_r,.star_l{ display:block; float:left; height:16px; width:8px; cursor:pointer; }
+.star_l{ background: url('/images/star3.png') 0 0 no-repeat; }
+.star_r{ background: url('/images/star3.png') -8px 0 no-repeat; }
+.star_hover_l{ background: url('/images/star1.png') 0 0 no-repeat !important; }
+.star_hover_r{ background: url('/images/star1.png') -8px 0 no-repeat !important; }
+.star_sel_l{ background: url('/images/star2.png') 0 0 no-repeat ; }
+.star_sel_r{ background: url('/images/star2.png') -8px 0 no-repeat; }
+
+
+
+
+/* Page tout le catalogue */
+.toutlecatalogue_alphabet { margin:auto; margin-left:50px; margin-right:50px; text-align:center; overflow:hidden; padding-left:30px; padding-bottom:10px; border-bottom:1px solid #333333; }
+.toutlecatalogue_chiffres { width:350px !important; }
+.toutlecatalogue_alphabet div.lettre { text-align:center; float:left; padding:0; margin:0; margin-right:5px; display:block; line-height:25px; width:25px; background-color:#fff; color:#333333; border:1px solid #fff;  }
+.toutlecatalogue_alphabet div.lettre_sans { text-align:center; float:left; padding:0; margin:0; margin-right:5px; display:block; line-height:25px; width:25px; background-color:#fff; color:#999; border:1px solid #fff; font-size:18px;  }
+.toutlecatalogue_alphabet div.lettre_over { text-align:center; float:left; padding:0; margin:0; margin-right:5px; display:block; line-height:25px; width:25px; background-color:#333333; border:1px solid #333333; color:#fff; }
+.toutlecatalogue_alphabet div.lettre:hover { border:1px solid #333333; color:#333333 !important; }
+.toutlecatalogue_alphabet div.lettre a { display:block; color:#333333; font-size:18px; font-weight:regular; }
+.toutlecatalogue_alphabet div.lettre a:hover { color:#333333; }
+.toutlecatalogue_alphabet div.lettre_over a { display:block; color:#fff; font-size:18px; font-weight:regular; }
+
+.categorie-colonne { display:block; width:900px; margin-left:50px; margin-top:20px;  }
+.categorie-colonne a{ display:block; margin-bottom:2px;margin-bottom:10px; background:url(/images/fleche-catalogue.jpg) no-repeat; height:25px; line-height:22px; vertical-align:middle; margin-right:10px; padding:3px; padding-left:17px;  }
+.categorie-colonne a:hover{}
+.categorie-colonne .colonne-categorie { display:block; float:left; width:33%; font-weight:bold; }
+
+.produit-colonne { display:block; width:900px; margin-left:50px; margin-top:0px;  }
+.produit-colonne a{ display:block; border:0px solid #DDF0F5; margin-bottom:5px; background:#FFF url(/images/fleche-catalogue2.png) no-repeat; height:12px; vertical-align:middle; margin-right:10px; padding:0px; padding-left:17px; color:#333333 }
+.produit-colonne a:hover{ background-color:#FFF;  color:#EE6C03 }
+.produit-colonne .colonne-produit { display:block; float:left; width:50%; font-weight:normal !important; }
+
+/* Popup Newsletter*/
+#newsletterhome { display:none; border: 2px solid #EE6C03;  height: 350px; left:50%; margin-left: -200px; position: absolute; top: 50%; width: 450px; z-index: 9999; background-image:url(/images/inscription-newsletter.jpg);  margin-top: -150px; }   
+#newsletterhomefond { display:none; position:fixed; top:0; left:0; right:0; bottom:0; z-index: 10; opacity:.6; filter:alpha(opacity=50); background-color:#fff; }    
+
+.search_partiel {background-color:#303030; clear: left;color: #FFFFFF; font-size: 14px; font-weight: bold; margin: 0 10px 20px 5px;padding: 5px;}
+.search_partiel b{font-size:14px;}
+.search_partiel strike{font-weight:normal;font-size:14px;}
+.search_result {color: #000000;font-size: 13px;}
+
+
+/*****************************************************************************************************************************************************/
+.cube_coordonnees_paiement{ float: left; border: solid 1px #ccc; padding:10px; width:720px; border-radius:5px; margin-bottom:20px; margin-left: 126px; font-size:12px; color:#333333}
+
+
+#left_panier{ border: 1px solid #CCCCCC; border-radius: 5px 5px 5px 5px;  width:180px; padding:10px 4px; margin: 15px 10px 10px 10px}
+.separateur{  width:160px; height:1px; background-color:#ccc; margin:15px 0px; margin-left:10px}
+.h2left-panier{ text-align:center; margin:0; padding:0}
+.adresse_paiement {font-size:12px;color:#666; margin: 15px}
+
+#panier table{ background:none; border-collapse:collapse; margin:0 10px;width:750px}
+#panier h4{ margin:10px 0 0 50px}
+#panier .has_pp{ margin:10px 0 10px 50px; padding:4px; width:590px; color:#fff; border:0px solid #EE6C03; background-color:#EE6C03; font-size:11px; font-weight:bold}
+#panier .fin_commande{ margin-left:50px; color:#333; font-size:12px; width:600px}
+#panier .fin_commande a{ color:#333; font-size:12px; font-weight:bold; text-decoration:underline}
+#panier .fin_commande a:hover{ color:#EE6C03; font-size:12px; font-weight:bold}
+#panier #divpanier{ clear:both; width:650px; }
+#panier table{ background:none; border-collapse:collapse; margin:0 10px; border-bottom:1px solid #cccccc; width:635px}
+#panier h4{ margin-left:50px; margin-top:10px}
+#panier .has_pp{ margin-left:50px; margin-top:10px; margin-bottom:10px; padding:4px; width:590px; color:#fff; border:0px solid #EE6C03; background-color:#EE6C03; font-size:11px; font-weight:bold}
+#panier .fin_commande{ margin-left:50px; color:#666; font-size:12px; width:600px}
+#panier .fin_commande a{ color:#666; font-size:12px; font-weight:bold; text-decoration:underline}
+#panier .fin_commande a:hover{ text-decoration:underline; font-size:12px; font-weight:bold}
+#panier table tbody td.odd{ padding:.1em; background-color:#f7f6f6 !important; border-bottom:1px solid #cccccc; border-left:1px solid #cccccc; border-right:1px solid #cccccc}
+#panier table tbody td.even{ padding:.1em; background-color:#fff; border-bottom:1px solid #cccccc; border-left:1px solid #cccccc; border-right:1px solid #cccccc}
+#panier th{ text-align:left; padding:.2em; height:25px; color:#666; font-size:12px}
+#panier th.total{ font-size:1.1em}
+#panier td.total{ font-size:1.1em}
+#panier thead th{ color:#666666;height:40px; font-weight:normal !important; border-bottom:1px solid #cccccc; border-top:1px solid #cccccc}
+#panier thead th.article_panier{ border-left:1px solid #cccccc; padding-left:10px}
+#panier thead th.quantite{  color:#666666; height:40px; font-weight:normal; text-align:center; width:200px}
+#panier thead th.titre_prix{ color:#666666; height:40px; font-weight:normal; padding-right:10px; text-align:center}
+#panier thead th.titre_total{ color:#666666;height:40px; font-weight:normal; padding-right:10px; text-align:right}
+#panier tbody td .price{ font-size:12px; color:#333}
+#panier tbody td .vignette{ width:auto; height:80px; float:left; padding:.1em; margin:.2em; margin-bottom:.4em;margin-right:.8em}
+#panier tfoot tr.total2 th{ padding-left:10px}
+#panier tfoot th.totalpanier{ color:#EE6C03; font-size:16px; height:35px; padding-left:10px}
+#panier tfoot th.totalpanier-liv{ color:#666666; font-size:12px; height:35px; padding-left:10px}
+
+
+
+#panier tfoot tr.remise td{ color:#EE6C03; font-size:12px; font-weight:bold}
+#panier tfoot tr.frais th{ color:#999; font-size:11px; font-weight:normal !important; padding-left:10px}
+#panier tfoot tr.tva th{ color:#999; font-size:10px; height:12px; font-weight:normal}
+#panier tfoot codepromo{ color:#666; font-size:10px; height:25px; font-weight:normal}
+.couleur-r{ background-color:#EE6C03;border-radius: 3px 3px 3px 3px;height: 28px; margin: 0 7px 7px 0}
+.buttonok-r {color: #FFFFFF;  display: block; font-size: 14px; padding: 5px 15px 0 0; text-align: center; text-decoration: none; font-weight:normal}
+
+/* goodies */
+.complement{ height:auto; padding: 10px 10px 10px 10px; border: 1px solid #CCCCCC;border-radius: 5px; float:left; width:730px; margin:0px 30px 30px 30px}
+.adresse-liv{height:auto; padding:15px 30px; border:1px solid #CCCCCC; border-radius: 5px; margin:20px 0px; width:669px}
+.couleur-caddie{ background-color:#EE6C03;border-radius: 3px 3px 3px 3px; height: 28px; margin: 0 7px 7px 0}
+.buttonok-caddie {color: #FFFFFF;  display: block; font-size: 14px; padding: 5px 15px 0 0; text-align: center; text-decoration: none}
+.buttonok-caddie2 {color: #FFFFFF;  display: block; font-size: 14px; padding: 3px 15px 0 0; text-align: center; text-decoration: none}
+.couleur-caddie a:hover{color: #FFFFFF}
+#panier .paniervide{display:block; float:right; height:25px; width:100px}
+#panier .paniervide a{ font-size:11px; color:#666666;  text-decoration:none; display:block;text-decoration:underline}
+#panier .paniersauvegarde{ display:block; float:right; height:25px; width:150px}
+#panier .paniersauvegarde a{  color: #666666;display: block;font-size: 11px;text-decoration: none; text-decoration:underline}
+#panier .paniersauvegarde a:hover{ text-decoration:underline}
+#panier th{ text-align:left; padding:.2em; height:25px; color:#333; font-size:12px}
+#panier th.total{ font-size:1.1em}
+#panier td.total{ font-size:1.1em}
+#panier thead th{ color:#333; height:40px; font-weight:normal !important}
+#panier thead th.article_panier{ padding-left:10px}
+#panier tbody td .vignette{ width:auto; height:80px; float:left; padding:.1em; margin:.2em; margin-bottom:.4em; margin-right:.8em}
+#panier tbody td .designation{ display:block; margin:0; color:#333; margin-right:5px}
+#panier tbody td .designation span{ font-size:12px !important}
+#panier tbody td .designation:hover{ color:#EE6C03}
+#panier tfoot tr.garantie th{ color:#333; font-size:11px; font-weight:normal !important; padding-left:10px}
+#panier tfoot tr.garantie th a{ color:#333; font-size:11px; font-weight:normal !important; text-decoration:none}
+#panier tfoot tr.garantie th a:hover{text-decoration:underline}
+#panier #total_panier{ color:#EE6C03; font-size:16px; font-weight:bold}
+
+/* Panier recapitulatif */
+#panier_recapitulatif #divpanier_recapitulatif{ clear:both; width:650px; margin-left:10px}
+#panier_recapitulatif h4{ margin-left:20px; margin-top:20px}
+#panier_recapitulatif table{ background:none; border-collapse:collapse; margin:0 10px; border-bottom:1px solid #cccccc; width:600px}
+#panier_recapitulatif table tbody td.odd{ padding:1em; background-color:#f7f6f6 !important; height:25px}
+#panier_recapitulatif table tbody td.even{ padding:1em; background-color:#fff; height:25px}
+#panier_recapitulatif th{ text-align:left; padding:.2em; height:30px; font-size:12px}
+#panier_recapitulatif tfoot th.total1{ font-size:1.1em; color:#666; font-weight:normal !important}
+#panier_recapitulatif tfoot th.total2{ font-size:1.1em; color:#999; font-weight:normal !important}
+#panier_recapitulatif tbody td.total{ font-size:12px; color:#666; font-weight:bold; margin-right:10px}
+#panier_recapitulatif thead th{color:#666666; background:url(/images/fond-panier-header.jpg) repeat-x; height:40px; font-weight:bold !important; border-bottom:1px solid #cccccc; border-top:1px solid #cccccc; padding-left:20px}
+#panier_recapitulatif thead th.titre_prix{ color:#666666; font-weight:normal; padding-right:10px; text-align:right}
+#panier_recapitulatif thead th.quantite{ color:#666666; font-weight:normal; text-align:center !important; width:150px}
+#panier_recapitulatif thead th.titre_total{ color:#666666; font-weight:normal; padding-right:15px; text-align:right}
+#panier_recapitulatif tbody td .price{ font-size:11px; color:#666666}
+#panier_recapitulatif tbody td .vignette{ width:auto; height:60px; float:left; padding:.1em; margin:.2em; border:1px solid #e6dfee; margin-right:.8em}
+#panier_recapitulatif tbody td .designation{ display:block; margin:0; color:#666666; padding-left:10px}
+#panier_recapitulatif tbody .quantite{ text-align:center; color:#666666}
+#panier_recapitulatif tbody td .designation span{ font-size:12px !important}
+#panier_recapitulatif tfoot tr.total2 .recap_sous_total{ color:#666; border-top:1px solid #cccccc; padding-left:10px}
+#panier_recapitulatif tfoot .recap_remise{ color:#999; padding-left:10px; font-weight:normal !important}
+#panier_recapitulatif tfoot .recap_option_sms{ color:#999; padding-left:10px;font-weight:normal !important}
+#panier_recapitulatif tfoot .recap_frais_vir{ color:#999; padding-left:10px; font-weight:normal !important}
+#panier_recapitulatif tfoot .recap_frais_liv{ color:#999; padding-left:10px; font-weight:normal !important}
+#panier_recapitulatif tfoot .recap_option_liv{ color:#999; padding-left:10px; font-weight:normal !important}
+#panier_recapitulatif tfoot .recap_total{ color:#EE6C03; padding-left:10px}
+#panier_recapitulatif tfoot .recap_formule{ color:#999; padding-left:10px; font-weight:normal !important}
+#panier_recapitulatif tfoot tr.remise td{ color:#EE6C03; font-size:12px; font-weight:bold}
+#panier_recapitulatif tfoot tr.tva th{ color:#EE6C03; font-size:10px; height:12px; font-weight:normal}
+#panier_recapitulatif tfoot tr.pack  th img.vignette{ width:60px; height:auto; border:1px solid #e6dfee}
+#panier_recapitulatif tfoot tr.pack  th{}
+#panier_recapitulatif #total_panier_recapitulatif{ color:#EE6C03; font-size:20px; font-weight:bold}
+
+/* Panier recapitulatif de test */
+/* Panier Header recapitulatif de test */
+#panier_recapitulatif2 #divpanier_recapitulatif2{ width:741px; height:43px; margin-left:126px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 thead th{ font-size:14px; font-weight:bold; color:#666; font-family:Arial; height:43px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .commande{ background:url(/images/fond_header_gauche_recapitulatif_panier.jpg) no-repeat; padding-left:20px; text-align: left; width:461px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .quantite{background:url(/images/fond_header_recapitulatif_panier.jpg) repeat-x; padding-right:20px; text-align: right; width:70px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .prix{ background:url(/images/fond_header_recapitulatif_panier.jpg) repeat-x;padding-right:20px; text-align: right; width:70px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .total{ background:url(/images/fond_header_droite_recapitulatif_panier.jpg) no-repeat; padding-right:20px; text-align: right; width:70px}
+
+/* Panier Ligne recapitulatif de test */
+#panier_recapitulatif2 #divpanier_recapitulatif2 tbody tr{ height:25px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .txt_normal { color:#333; font-size:12px; font-weight:normal; font-family:Arial}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .txt_bold { color:#333; font-size:12px; font-weight:bold; font-family:Arial}
+
+#panier_recapitulatif2 #divpanier_recapitulatif2 .td_designation{ border-left:1px solid #cccccc; padding-left:20px; text-align: left}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .td_quantite{ padding-right:20px; text-align: right; width:70px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .td_prix{ padding-right:20px; text-align: right; width:70px}
+#panier_recapitulatif2 #divpanier_recapitulatif2 .td_total{ border-right:1px solid #cccccc; padding-right:20px; text-align: right; width:69px}
+
+/* Panier Footer recapitulatif de test */
+#panier_recapitulatif_footer2{ width:741px; margin-left:126px}
+#panier_recapitulatif_footer2 .footer_img{ width:741px; height:10px; background:url(/images/fond_header_footer_recapitulatif_panier.jpg) no-repeat}
+#panier_recapitulatif_footer2 #recap_footer { width:317px; margin-left:424px}
+#panier_recapitulatif_footer2 #recap_footer .designation_recap{ border-left:1px solid #cccccc; padding-left:20px; text-align: left}
+#panier_recapitulatif_footer2 #recap_footer .prix_recap{ border-right:1px solid #cccccc; padding-right:20px; text-align: right}
+#panier_recapitulatif_footer2 .footer_pied_img{ width:317px; height:6px; background:url(/images/fond_footer_footer_recapitulatif_panier.jpg) no-repeat;  margin-left:424px}
+#panier_recapitulatif_footer2 .txt_normal { color:#666; font-size:12px; font-weight:normal; font-family:Arial}
+#panier_recapitulatif_footer2 .txt_bold { color:#666; font-size:12px; font-weight:bold; font-family:Arial}
+#panier_recapitulatif_footer2 .txt_total { color:#EE6C03; font-size:16px; font-weight:bold; font-family:Arial}
+/* Panier */
+.SizeTitle-panier{ font-size:18px; }
+.SizeTitle-fidelite{ font-size:30px; }
+
+.couleur-r a:hover{color: #FFFFFF}
+
+
+/* Blocs de connection si non connecté */
+#connection{ display:block; float:left; width:700px; margin-bottom:50px; margin-left:40px}
+#connection .client{float:left; width:360px; padding:0px; padding-left:14px; margin-left:9px; background-image:url(/images/fond-authentification2.jpg); background-repeat:no-repeat; height:221px; margin-top:20px}
+#connection .client-intro{ margin-top:37px; color:#666666; font-size:12px}
+#connection .client_label{color:#666666; font-size:12px}
+#connection .client a{color:#666666; font-size:10px}
+#connection .client a:hover{ text-decoration:underline}
+
+#connection .nouveau-client p{color:#666666; font-size:12px}
+#connection .nouveau-client{ float:left; width:249px; padding:0px; padding-left:20px; background-image:url(/images/fond-nouveau-client2.jpg); background-repeat:no-repeat; margin-left:13px; height:159px; border-right:0px solid #e6dfee; margin-top:20px}
+
+#connection .paypal p{color:#333; font-size:12px}
+#connection .paypal{ float:left; width:249px; padding:0px; padding-left:10px; background-image:url(/images/panier-paypal.jpg); background-repeat:no-repeat; margin-left:13px; height:159px; border-right:0px solid #e6dfee; margin-top:20px}
+#connection .paypal-intro{ margin-top:39px; color:#333; font-size:12px; width:230px}
+
+/* Etapes */
+#etape1 .pack_titre{ display: block}
+#etape1 .pack_titre .pack_titre_txt{ color:#333; font-family:Arial;  font-size:12px; line-height:18px; margin-left:5px; width:180px}
+#etape1 .pack_titre_prix{ display: block; color:#666; font-family:Arial;  font-size:12px; padding-left:5px; padding-right:5px}
+#etape1 .pack_descriptif_standard{ color:#666; font-family:Arial; font-size:12px; margin-left:10px}
+#etape1 .vignette_valide{ font-size:12px; padding-top:5px; padding-bottom:5px}
+#etape1 .pack_descriptif{ color:#3d9c09; font-family:Arial; font-weight:bold; font-size:12px; margin-left:10px}#etape1 div.pack1 p .prix{ display: block; padding:2px; font-family:Arial; color:#999; font-weight:bold; font-size:14px}
+#etape1 div.pack2 p .prix{ display: block; padding:2px; font-family:Arial; color:#999; font-weight:bold; font-size:14px}
+#etape1 div.pack3 p .prix{ display: block; padding:2px; font-family:Arial; color:#999; font-weight:bold; font-size:14px}
+#etape1 div.pack4 p .prix{ display: block; padding:2px; font-family:Arial; color:#999; font-weight:bold; font-size:14px}
+#etape1 div.pack5 p .prix{ display: block; padding:2px; font-family:Arial; color:#999; font-weight:bold; font-size:14px}
+#etape1 p { display: block; padding:4px; font-family:Arial; color:#EE6C03}
+#etape1 select { width:120px}
+#etape1 legend { color:#EE6C03}
+
+ /* Etape 2 choix adresses */
+ 
+ /* Carroussel Vertical des POI */
+#carrousel_POI{ width:180px; height:488px; border:0; border-radius:0; float:left  }
+#carrousel_POI .carrousel_elt,#carrousel_POI .carrousel_eltOff{ cursor:pointer; width:180px; position:relative; font-size:12px; height:111px; border-bottom:1px solid #c6c6c6; background-color:#fff }
+#carrousel_POI .carrousel_eltOff *{ color:#ddd !important }
+#carrousel_POI .carrousel_selected{ background-color:#e1e1e1 }
+#carrousel_POI .carrousel_grpprevious{ position:absolute; top:-488px; bottom:488px }
+#carrousel_POI .carrousel_grpcurrent{ position:absolute; top:20px; bottom:20px }
+#carrousel_POI .carrousel_grpnext{ position:absolute; top:488px; bottom:-488px }
+#carrousel_POI .POI_id{ position:absolute; width:18px; height:18px; left:8px; top:11px; text-align:center; color:#fff; font-weight:bold; font-size:14px }
+#carrousel_POI .POI_name{ color:#666; margin:0 5px; display:block; padding:3px 0; margin-left:28px }
+#carrousel_POI .POI_adresse{ color:#888; margin:0 5px; display:block; margin-left:28px; font-size:10px }
+#carrousel_POI .POI_radio{ position:absolute; left:2px; top:2px }
+#carrousel_POI .POI_distance{ color:#666; font-size:11px; position:absolute; bottom:2px; right:2px }
+
+.carrousel{ position:relative; z-index:1; overflow:hidden; border:1px solid #b9b9b9; border-radius:9px }
+.carrousel_scrollleft,
+.carrousel_scrollright{ position:absolute; z-index:3; top:0; bottom:0; width:38px; background-color:#fff; text-align:center; border-radius:9px }
+.carrousel_scrollleft{ left:0; background:#FFF url(/images/design_elements/carousel_left_arrow.png) 1px 50% no-repeat; cursor:pointer }
+.carrousel_scrollright{ right:0; background:#FFF url(/images/design_elements/carousel_right_arrow.png) 0 50% no-repeat; cursor:pointer }
+.carrousel_scrollleft:hover{ left:0; background:#FFF url(/images/design_elements/carousel_left_arrow_dark.png) 1px 50% no-repeat }
+.carrousel_scrollright:hover{ right:0; background:#FFF url(/images/design_elements/carousel_right_arrow_dark.png) 0 50% no-repeat }
+.carrousel_scrollleft_end{ left:0; background:#FFF none !important; cursor:default; }
+.carrousel_scrollright_end{ right:0; background:#FFF none !important; cursor:default; }
+.carrousel_scrolltop,
+.carrousel_scrollbottom{ position:absolute; z-index:3; left:0; right:0; height:18px; text-align:center; cursor:pointer }
+.carrousel_scrolltop{ top:0; background:#fff url(/images/design_elements/carousel_top_arrow.jpg) 50% 50% no-repeat }
+.carrousel_scrollbottom{ bottom:0; background:#fff url(/images/design_elements/carousel_bottom_arrow.jpg) 50% 50% no-repeat }
+.carrousel_scrolltop_end, .carrousel_scrollbottom_end{ background:none; background-color:#fff }
+
+.POI_locateOn_CHR{ display:block; width:24px; height:41px; background:url(/images/design_elements/locateOn_3.png) 0 0 no-repeat !important }
+.POI_locateOn_BPR{ display:block; width:24px; height:41px; background:url(/images/design_elements/locateOn_62.png) 0 0 no-repeat !important }
+.POI_locateOn_A2P{ display:block; width:24px; height:41px; background:url(/images/design_elements/locateOn_63.png) 0 0 no-repeat !important }
+.POI_locateOn_CIT{ display:block; width:24px; height:41px; background:url(/images/design_elements/locateOn_64.png) 0 0 no-repeat !important }
+.POI_handicap{ position:absolute; width:21px; height:21px; background:url(/images/socolissimo_acces_hand.png) 0 0 no-repeat }
+.POI_close{ position:absolute; width:21px; height:21px; background:url(/images/picto-close-commercant.png) 0 0 no-repeat }
+
+#choixPOI{ margin-bottom:15px }
+#mapPOI{ margin:4px; height:480px; }
+#detailPOI{ border:2px solid #ddd; height:80px; padding:5px }
+
+#f_ml span.date-estimation { position:absolute;left:436px;color:#00c;font-size:11px }
+#f_ml div.ligne-ml { display:block;overflow:hidden;position:relative;clear:both;padding-left:50px;padding-bottom:10px }
+#f_ml div.titre-ml { font-weight:600;line-height:20px;padding-top:4px;margin-right:10px }
+#f_ml span.prix-ml { position:absolute;left:276px; }
+ 
+ 
+#etape2  { width:900px; float: left; padding:4px; margin-left:45px}
+#etape2 .titre-left{ background-image:url(/images/bandeau-adresse-livraison.jpg); width:849px; 
+border:solid 1px #ccc; height:45px; display:block; background-repeat:no-repeat; margin-left:10px}
+#etape2 .titre-left-content{ text-align:left; color:#fff; font-size:20px; font-weight:bold; padding-left:15px; line-height:42px}
+
+#etape2 p.adresse {  padding:2px; color:#EE6C03}
+#etape2_content { text-align:left; display:block; overflow:auto; padding:4px}
+#etape2_content .ligne { display:block; float:left; margin:7px; width:272px; height:135px; border:solid 1px #ccc; background-image:url(/images/fond-coordonnees.jpg); color:#333}
+#etape2_content .radio { float:left; display:block; padding:8px 2px 8px 20px}
+#etape2_content .texte { float:left; display:block; padding:12px 8px 8px 8px; height:85px; width:200px}
+#etape2_content .etape2-modifier{clear:left; display:block; margin-left:10px; padding-bottom:5px; text-align:center; height:23px; width:250px; border-top:solid 1px #ccc}
+#etape2_content .etape2-modifier a{ color:#666; font-family:Arial; font-size:12px; line-height:26px; font-weight:bold}
+#etape2_content .etape2-modifier a:hover{color:#333}
+#etape2_content .etape2-definir{clear:left; display:block; margin-left:7px; text-align:center; height:27px; width:272px; border:solid 1px #ccc; background-image:url(/images/fond-definir-nouvadresse.jpg); background-repeat:repeat-x}
+#etape2_content .etape2-definir a{ color:#666; font-family:Arial; font-size:12px; line-height:26px; font-weight:bold}
+#etape2_content .etape2-definir a:hover{color:#333}
+#etape2_content .texte a{ color:#00abdc}
+#etape2_content .texte a:hover{ text-decoration:underline}
+.diviseur-panier-haut{ width:849px; height:18px; margin-left:25px; clear:both; padding-bottom:25px}
+.diviseur-panier{ width:849px; height:18px; margin-left:55px; clear:both; padding-top:15px}
+.etape3_content { text-align:left; display:block; overflow:auto; border:solid 0px #ccc; padding-right:4px; color:#333; margin-top:10px}
+#etape3 .ligne { display:block; float:left; width:445px; border-bottom:solid 1px #ccc; margin:4px}
+#etape3 .ligne_monde { display:block; float:left; width:445px; margin:4px 4px 4px 15px; border:solid 2px #ff5500}
+#etape3 .radio { float:left; display:block; padding:8px}
+#etape3 .texte { float:none; display:block; padding:8px}
+#etape3 .texte2 {display:block; margin-left:80px; font-weight:normal !important; margin-bottom:10px; width:290px; text-align:justify}
+#etape3 .texte2-depliable {display:block; margin-left:86px; font-weight:normal !important; margin-bottom:10px; width:290px; text-align:justify; clear:both}
+#etape3 h4{font-family:Arial; font-size:16px; font-weight:bold; margin-left:16px}
+#etape3 .instructions{ color:#EE6C03; font-family:Arial; font-size:11px; font-weight:bold; display:block}
+#etape3 .instructions input{ margin-left:35px; margin-bottom:5px; margin-top:5px}
+#etape3 div.prSoC .instructions input{ margin-left:0 !important; margin-bottom:5px}
+#etape3 .portable_destinataire{ margin-left:80px; margin-top:5px; display:block;color: #EE6C03; font-family: Arial; font-size: 11px; font-weight: bold}
+#etape3 .portable_destinataire input{margin-top:5px}
+#etape3sms { display:block; color:#333; width:940px; background-image:url(/images/fond-option-sms.jpg); height:138px; background-repeat:no-repeat; float:right; border:solid 2px #8899a8;margin-right: 17px; margin-bottom:20px; margin-top:20px}
+#etape3_sms_title{float:left; height:138px}
+#etape3_sms_title .titre_sms{ margin-left:130px; padding-top:6px; font-weight:bold; color:#FFF; font-family:Arial; font-size:14px; display:block}
+#etape3_sms_title .txt_sms{ margin-left:10px; color:#F50; font-family:Arial; font-size:14px; width:320px; display:block; margin-top:48px}
+#etape3sms select { width:200px}
+#etape3_socolissimo{float:left;display:block;width:450px;min-height:400px;border:solid 2px #ff5500;overflow:hidden; margin-left:15px; margin-bottom:20px}
+#etape3_eco{float:right;display:block;width:450px;height:auto;border:solid 1px #cccccc;overflow:hidden; margin-bottom:15px; margin-right:15px}
+#etape3_express{float:right;display:block;width:450px;height:auto;border:solid 2px #C03;overflow:hidden; margin-bottom:40px; margin-right:15px; clear:right; margin-bottom:20px}
+#etape3_socolissimo_title{ width:454px; height:80px; background:#CCC; background-image:url(/images/bandeau-socolissimo.jpg)}
+#etape3_socolissimo_title .titre_so{ margin-left:130px; padding-top:6px; font-weight:bold; color:#FFF; font-family:Arial; font-size:14px; display:block}
+#etape3_socolissimo_title .txt_so{ margin-left:130px; color:#F50; font-family:Arial; font-size:14px; width:320px; display:block; margin-top: 12px}
+#etape3_eco_title{ width:460px; height:80px; background:#CCC; background-image:url(/images/bandeau-standard.jpg)}
+#etape3_eco_title .titre_eco{ margin-left:130px; padding-top:6px; font-weight:bold; color:#FFF; font-family:Arial; font-size:14px; display:block}
+#etape3_eco_title .txt_eco{ margin-left:130px; color:#333; font-family:Arial; font-size:14px; width:320px; display:block; margin-top: 12px}
+#etape3_express_title{ width:460px; height:80px; background:#CCC; background-image:url(/images/bandeau-express.jpg)}
+#etape3_express_title .titre_express{ margin-left:130px; padding-top:6px; font-weight:bold; color:#FFF; font-family:Arial; font-size:14px; display:block}
+#etape3_express_title .txt_express{ margin-left:130px; color:#333; font-family:Arial; font-size:14px; width:320px; display:block; margin-top: 12px}
+#nom_socolissimo { float:left}
+#img_socolissimo{ height:18px; display:block; line-height:20px; width:40px;float:left}
+#nom_socolissimo span{ height:18px; display:block; text-align:center; line-height:20px}
+#prix_socolissimo{ font-size:14px; font-weight:bold; color:#666; display:inline-block; float:right}
+#prix_socolissimo span{ margin-left:20px; width:50px; height:18px; background-image:url(/images/fond-prix-etape3.jpg); display:block; text-align:center; line-height:18px}
+#etape4{width:700px; margin-left:180px}
+#etape4 .paiement-cb{ width:604px; height:96px; background-image:url(/images/fond-paiement-cb.jpg); margin: 20px 0 8px 0}
+#etape4 .paiement-paypal{ width:604px; height:96px; background-image:url(/images/fond-paiement-paypal.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-cheque1x{ width:604px; height:120px; background-image:url(/images/fond-paiement-cheque1x.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-cheque2x{ width:604px; height:120px; background-image:url(/images/fond-paiement-cheque2x.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-cheque3x{ width:604px; height:120px; background-image:url(/images/fond-paiement-cheque3x.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-virement{ width:604px; height:96px; background-image:url(/images/fond-paiement-virement.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-mandat-cash{ width:604px; height:96px; background-image:url(/images/fond-paiement-mandat-cash.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-mandat-administratif{ width:604px; height:120px; background-image:url(/images/fond-paiement-mandat-administratif.jpg); margin: 8px 0 8px 0}
+#etape4 .paiement-txt{ width:310px; margin-left:155px;padding-top:10px; float:left}
+#etape4 .paiement-txt .paiement-titre{ font-family:Arial; font-weight:bold; color:#1c3f73; font-size:14px}
+#etape4 .paiement-txt .paiement-descriptif{ font-family:Arial; color:#333; font-size:12px; text-align:justify; display:block; width:310px}
+#etape4 .bouton-paiement{ float:right;padding-right: 8px; padding-top: 24px}
+#etape4 .bouton-paiement2{ float:right;padding-right: 8px; padding-top: 36px}
+
+/* Fil d'ariane panier */
+#fil_ariane_panier{ font-size:11px; font-weight:bold; margin-left:280px}
+#fil_ariane_panier .num_etape{ text-align:center; float:left; margin: 0px 15px 15px 15px}
+#fil_ariane_panier .num_etape a{ display:block; font-size:12px; font-weight:bold; color:#1f56bd; text-align:center}
+#fil_ariane_panier .txt_off{ display:block; font-size:12px; font-weight:bold; color:#CCC; text-align:center}
+
+
+/* new panier */
+.OrangeButton { background-color:#858484; color:#FFF; font-size:14px; padding:6px 20px; text-align:center}
+.OrangeButtonSmall { background-color:#c60521; color:#FFF; font-size:12px; padding:3px 10px; text-align:center}
+.BlueButton { background-color:#c60521; color:#FFF; font-size:14px; padding:6px 20px; text-align:center}
+.GreyButton { background-color:#919191; color:#FFF; font-size:14px; padding:6px 20px; text-align:center}
+.PinkButton { background-color:#EE6C03;  color:#FFF; font-size:14px; padding:6px 20px; text-align:center}
+.PinkButtonSmall { background-color:#858484; color:#FFF; font-size:12px; padding:3px 10px; text-align:center}
+
+
+/* Panier Code de reduction et Paypal Express */
+#PromoPaypal{width:770px; height:auto; margin:10px 0 0 0; float:left}
+#PromoPaypal .bloc_codepromo,#PromoPaypal .bloc_paypal{min-height:60px; background:#FFF; border:1px solid #c2c2c2; border-radius:5px}
+#PromoPaypal .bloc_paypal p,#PromoPaypal .bloc_codepromo p{margin:0; display:block; float:left; padding: 15px 0 0 10px}
+#PromoPaypal .bloc_codepromo .PictoCode{ display:block; float:left; padding: 6px 0 0 12px}
+#PromoPaypal .bloc_codepromo{float:left; width:333px; }
+#PromoPaypal .bloc_codepromo input{display:block; float:left; margin:0; padding:0}
+#PromoPaypal .bloc_codepromo .SaisieCode{ margin: 20px 0 0 10px}
+#PromoPaypal .bloc_codepromo .BoutonCode{ padding: 16px 0 0 5px}
+#PromoPaypal .bloc_paypal{width:408px; float:right; margin-right:10px}
+#PromoPaypal .bloc_paypal a{text-decoration:none; display:block; float:left; padding: 8px 0 0 15px}
+
+/* Panier recapitulatif */
+#panier_recapitulatif h4{ margin-left:20px; color:#333; font-size:18px}
+#panier_recapitulatif thead th.titre_prix{ color:#333; font-weight:normal; padding-right:10px; text-align:right}
+#panier_recapitulatif thead th.quantite{ color:#333; font-weight:normal; text-align:center !important; width:150px}
+#panier_recapitulatif thead th.titre_total{ color:#333; font-weight:normal; padding-right:15px; text-align:right}
+#panier_recapitulatif tbody td .price{ font-size:11px; color:#333}
+#panier_recapitulatif tbody td .vignette{ width:auto; height:60px; float:left; padding:.1em; margin:.2em; border:1px solid #e6dfee; margin-right:.8em}
+#panier_recapitulatif tbody td .designation{ display:block; margin:0; color:#333; padding-left:10px}
+#panier_recapitulatif tbody .quantite{ text-align:center; color:#333}
+/* Panier Footer recapitulatif de test */
+#panier_recapitulatif_footer2 .txt_total { color:#EE6C03; font-size:16px; font-weight:bold}
+/* carrousel panier */
+#car-panier_tab{  margin-top:15px}
+#car-panier_tab .onglets{ padding:0px; overflow:hidden}
+#car-panier_tab .onglets h3{ float:left; display:block; color:#666666; font-size:13px; margin-left:5px; cursor:pointer; font-weight:normal; border:1px solid #cccccc; border-bottom:0px; background-color:#fff; border-top-left-radius:5px; border-top-right-radius:7px; padding:2px 10px; text-align:right; height:40px; line-height:20px}
+#car-panier_tab .onglets .car-panier_selected{ background-color:#EE6C03; color:#fff !important; border-bottom:0}
+#car-panier_tab .onglets .car-panier_selected *{color:#fff !important}
+#car-panier_tab .car-panier_show{ display:block}
+#car-panier_tab .car-panier_hide{ display:none}
+.car-panier{ position:relative; z-index:1; overflow:hidden; border:1px solid #cccccc; border-radius:5px; width:728px}
+.title-liv{ font-size:13px; font-weight:bold; color:#EE6C03; margin:15px}
+/* livraison panier */
+#adresse-livraison .liv-info1{ display:block; float:left; width:30px; color:#666}
+#adresse-livraison .liv-info{ display:block; float:left; width:330px; margin-left:15px; font-weight:normal; font-size:12px; padding-top:5px; color:#666}
+#adresse-livraison .ad-livraison {width:400px;float:left}
+#adresse-livraison .ad-facturation {width:271px;float:left}
+#adresse-livraison .adresse-livr {height:auto;padding: 10px;border: 1px solid #CCCCCC;border-radius: 5px;margin:20px 0px;width:721px;float:left;margin-right:20px}
+#adresse-livraison .n-adresse {font-size:12px;color:#666;margin-left:10px;width:279px;float:left}
+#adresse-livraison .n-adresse-btn {float:right;margin-right:10px;margin-top:10px}
+#adresse-livraison .choix-mode{ padding:0 10px; font-size:12px; color:#666; float:left; width:170px; margin-left:45px}
+#adresse-livraison .txt-rose{font-weight:bold; color:#EE6C03; font-size:12px}
+/* Etape 2 choix adresses */
+div.e2_blocOrange { overflow:hidden;border-radius:6px;background-color:#ee6c03;color:#fff;margin-right:10px;padding:6px;margin-top:10px; }
+div.e2_blocOrange h2 { font-size:14px; font-weight:400; color:#fff; float:left;}
+#etape4 .paiement-pm{ width:604px; height:96px; background-image:url(/images/fond-paiement-pm.jpg); margin: 20px 0 8px 0}
+/* Etape 4 paiements  */
+#etape4_paiements{width:741px; position:relative; overflow:hidden; border:1px solid #ccc; border-radius:8px; margin:0px 0 40px 126px; padding-top:26px}
+#etape4_paiements .txt_mode{ font-size:12px; font-weight:bold; color:#333}
+#etape4_paiements .txt_infos{ font-size:12px; font-weight:normal; color:#666}
+#etape4_paiements .modes_paiement{ height:90px}
+#etape4_paiements .modes_paiement .bloc_cb{ float:left; width:120px; margin-left:42px}
+#etape4_paiements .modes_paiement .bloc_paypal{ float:left; width:120px; margin-left:58px}
+#etape4_paiements .modes_paiement .bloc_cheque{ float:left; width:120px; margin-left:30px}
+#etape4_paiements .modes_paiement .bloc_autres_paiements{ float:left; margin-left:30px; width:200px}
+#etape4_paiements .infos_paiement .bloc_infos_paiement{ float:left;margin:0 20px 0 40px; width:420px; padding-bottom:20px}
+
+
+/* login-panier */
+#form-avis{ float:left}
+#form-avis .titre{float:left;width:800px;font-size:24px; color:#EE6C03}
+#form-avis .inscription-avis { margin-top:20px; margin-left:110px}
+#form-avis .intro2{float:left;width:725px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666}
+#form-avis .encart-form{ border:1px solid #ccc; border-radius: 5px 0 0 0 ; height:270px ; width:371px; padding:5px 0 0 3px; float:left; margin-right:20px; box-shadow: 3px 3px 3px #c5c5c5; margin: 40px 10px 10px }
+#form-avis .encart-form2{ border:1px solid #ccc; border-radius: 5px 0 0 0 ; height:260px ; width:371px; padding:5px 0 0 3px; float:left; margin-right:20px; box-shadow: 3px 3px 3px #c5c5c5; margin: 40px 10px 10px }
+#form-avis .couleur{background-color:#C60521; margin:0px 10px 10px 0; font-weight:bold; height:25px; padding-bottom:3px}
+#form-avis .buttonok{text-decoration:none;color:#fff;font-size:14px; font-family:Arial, Helvetica, sans-serif; display:block; padding:3px 15px 0px 0px;text-align:center}
+#form-avis .sstitre{ color: #333333; float: left; font-family: Arial,Helvetica,sans-serif; font-size: 19px; margin-top: 5px; width:880px; height:30px}
+.portable_destinataire{ border:1px solid #CCC;border-radius:5px;margin:15px 0;padding:10px 8px;width:728px;overflow:hidden}
+.portable_destinataire input{margin-top:5px}
+
+.azoom{ position:absolute;}
+.azoom img{ background:url(../images/apercu1.png)}
+.azoom img:hover{ background:url(../images/apercu2.png)}
+.cube-prod-acc .linebtn {
+  -webkit-opacity: 0.00;
+  -moz-opacity: 0.00;
+  opacity: 0.00;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.cube-prod-acc:hover > .linebtn { 
+	-webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1; 
+}
+
+/* page marque */
+.pod_marque{width:231px; height:131px; float:left; margin:17px 9px}
+.pod_marque a:hover{ text-decoration:none!important}
+.titre_marque{width:229; height:25px; border: 1px solid #dbdbdb; font-size:11px; color:#666666; padding:7px 0 0 5px; text-align:left}
+.nom_marque{font-size:16px; font-weight:bold; margin-left:5px; color:#333333}
+
+table.lesmarques { margin-left:48px; }
+table.lesmarques tr { vertical-align:top; }
+table.lesmarques td { width:230px; padding-top:16px; }
+table.lesmarques p { font-size:24px; color:#ee6c03; font-weight:600; margin:0px; margin-bottom:6px; }
+
+/* liste produits */
+div.cubecoeur { cursor:pointer; top:-8px; right:-8px; position: absolute;z-index: 10; overflow:hidden; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

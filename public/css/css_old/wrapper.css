@@ -1,0 +1,20 @@
+div.wrapper{ position:relative; margin:0px 10px 0px 10px; height:336px; background-color:#303030; width:696px ; float:left;border: 1px solid #CCCCCC;}
+div.wrapper .images{ width:696px; height:336px;}
+div.wrapper .buttons{ width:115px; margin:auto; margin-top:10px; }
+div.wrapper .buttons span.button{ cursor:pointer; position:relative; float:left; background-image:url(/images/wrapper/slider_dot_off.png); background-repeat:no-repeat width:19px; width:19px; height:18px; }
+div.wrapper .buttons span.selected_button { background-image:url(/images/wrapper/slider_dot_on.png); }
+
+.ombre{ margin:0px 10px 25px 10px; }
+.piece{background-image:url(/images/wrapper/piece-n2.jpg); background-repeat:no-repeat }
+.txt-garantie{ margin-left:8px; color:#666; font-size:14px; line-height:28px}
+.bloc-garantie{width:258px; height:182px; float:right; background-color:#f3f3f3; border:1px solid #bdbdbd; margin-top:15px}
+.right-wrapper{width:260px; height:336px; float:right; margin-right:12px}
+
+.compteur-wrappeur{ float: right; height:357px; margin-right: 12px; width:261px; background-image:url(/images/wrapper/elements/fond-compteur.jpg)}
+.offre-compteur{margin: 40px 3px 0 7px}
+.b-offre-compteur{font-size:30px; font-family:Arial, Helvetica, sans-serif; color:#333; padding:14px 0 0 30px; font-weight:bold; display:block; height:35px}
+.offre-compteur-bloc{font-size:50px; font-family:Arial, Helvetica, sans-serif; color:#333; margin:7px 0 0 30px; font-weight:bold}
+.bandeau-offre{ width:980px; height:62px; margin:25px 10px 10px 10px; display:block; cursor:pointer }
+.bandeau-lien { display:block; }
+div.wrapper p.fondgris { position:absolute;z-index:4;top:270px;left:1px;width:694px;height:53px;background-color:#000;opacity:0.4; }
+div.wrapper p.decouvrir { position:absolute;z-index:5;top:277px;left:558px;width:110px;text-align:center;background-color:#ee6c03;color:#fff;font-weight:300;font-size:14px;padding:6px;border-radius:6px;border:solid 2px #ffac53; }

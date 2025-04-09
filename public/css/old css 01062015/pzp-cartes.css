@@ -1,0 +1,24 @@
+div.interface { overflow:hidden; display:block; padding:10px; }
+div.carte { float:left; }
+div.controles { padding-left:10px; float:left;  }
+div.controles textarea { font-family:arial,sans-serif;font-size:12px;width:350px; height:48px; resize:none; color:#000 }
+div.controles textarea.short { width:190px !important; height:24px !important; }
+
+div.controles p { margin:0; }
+div.controles span.libelle { clear:both;float:left;line-height:26px;margin-right:10px;width:150px; }
+
+div.photo { text-align:center; padding:6px; background-color:#fff; }
+div.d_text { border:solid 1px #fff; overflow:hidden; display:block; }
+#upencours { display:none; color:#444; font-size:10px; }
+.bouton {text-align:center; background-color:#f60;border-radius:1px;color:#fff;padding:6px;float:right;clear:both;width:140px;text-align:center;float:left; font-size:14px}
+.bouton:hover { color:#fff; }
+input.bouton:hover { cursor:pointer; }
+img.imgcal { margin-left:6px; }
+#croixcal { margin-left:4px; }
+#sexe { width:100px; }
+#poids { width:100px; }
+#taille { width:100px; }
+
+#canvas { border:solid 1px #444; }
+
+

@@ -1,0 +1,267 @@
+/* Cube accueil */
+.cube_accueil{ width:130px; border:1px solid #939393; float:left; margin-right:18px; text-align:center; background-image:url(/images/fond-consultation.jpg); padding-top:5px}
+.cube_accueil:hover { border:1px solid #333333;}
+.cube_accueil .contenu{ width:130px; }
+.cube_accueil .contenu .image{ text-align:center; }
+.cube_accueil .contenu .image a img{ border:0; width:120px; height:120px; }
+.cube_accueil .contenu .nom{ text-align:center; height:45px;}
+.cube_accueil .contenu .nom a{color:#333333; }
+.cube_accueil .contenu:hover > .nom a{ color:#F60; }
+
+/* Cube promotion_accueil */
+.cube_promotion_accueil{ width:132px; border:1px solid #cccccc; float:left; margin:0.2em;  }
+.cube_promotion_accueil:hover { border:1px solid #999;}
+.cube_promotion_accueil .contenu{ width:132px; height:220px}
+.cube_promotion_accueil .contenu .image{ text-align:center; }
+.cube_promotion_accueil .contenu .image a img{ border:0; width:auto; height:110px; }
+.cube_promotion_accueil .contenu .nom{ text-align:center; height:50px; margin:1px}
+.cube_promotion_accueil .contenu .nom a{color:#666; }
+.cube_promotion_accueil .contenu:hover > .nom a{ color:#666; }
+.cube_promotion_accueil .contenu .prix{ text-align:center; height:50px; border:0px solid #ccc; padding:0em; overflow:hidden; }
+.cube_promotion_accueil .contenu .prix .prix2{ text-align:center; }
+.cube_promotion_accueil .contenu .prix .prix3{ text-align:center; font-size:14px; color:#3d7b00; font-weight:bold; line-height:50px;}
+.cube_promotion_accueil .contenu .prix .promo{ font-family:Arial; font-size:18px; color:#c7191b; text-align:center; font-weight:bold;}
+.cube_promotion_accueil .contenu .prix .prix2 .strike{font-family:Arial; font-size:12px; color:#000; text-decoration:line-through;}
+.cube_promotion_accueil .contenu .prix div.prix2 span.euro2{font-family:Arial; font-size:12px !important; color:#333333; font-weight:bold;}
+.cube_promotion_accueil .contenu .prix .euro{font-family:Arial; font-size:16px; color:#F60; font-weight:bold;}
+
+/* Cube produit */
+.cube_produit{ width:183px; border:1px solid #CCCCCC; float:left; margin:0 .3em; margin-bottom:8px;  }
+.cube_produit:hover {}
+
+<!--.cube_promo{ border:1px solid #CCCCCC}-->
+
+.cube_produit .entete{ line-height:25px; height:28px; background-color:#fff; overflow:hidden; }
+.cube_produit .entete .new{ float:left; font-weight:bold; color:red; margin:2px 0 0 2px}
+.cube_produit .entete .solde{float:left; font-weight:bold; color:#F60; }
+.cube_produit .entete .marque{ float:right; margin:0 .2em; margin-right:1px; font-weight:bold;}
+.cube_produit .entete .marque a{ font-family:Arial; font-size:10px; color:#333333; font-weight:bold; }
+.cube_produit .entete:hover > .marque a{ color:#00abdc;}
+.cube_produit .contenu{ width:170px; height:250px; position:relative }
+
+.cube_produit .contenu .image{ text-align:center; padding:.2em; background-color:#FFF; }
+.cube_produit .contenu .image a img{ border:0; width:auto; height:120px; }
+.cube_produit  .contenu .azoom{ position:absolute; right:5px; top:100px; width:25px; height:25px }
+.cube_produit  .contenu .azoom img{ width:25px; height:25px }
+.cube_produit .contenu .nom{ text-align:center; height:50px; padding:5px; background-color:#FFF; }
+.cube_produit .contenu .nom a{color:#333333; }
+.cube_produit .contenu:hover > .nom a{ color:#F60; }
+.cube_produit .contenu .nom .designation_produit_cube{margin:0; font-family:Arial; font-size:11px; font-weight:normal !important;}
+.cube_produit .contenu .prix{ text-align:center; background-image:url(/images/fond-cube.jpg); padding:0em; overflow:hidden; height:30px;  padding:5px;}
+.cube_produit .contenu .prix .prix2{ text-align:center; }
+.cube_produit .contenu .prix .prix3{ text-align:center; font-size:14px; color:#CC0000; font-weight:bold; line-height:50px;}
+.cube_produit .contenu .prix .promo{ display:block; float:left; width:40px; background-color:#CC0000; padding:1px; padding-left:3px; font-family:Arial; font-size:15px; color:#FFF; text-align:left; font-weight:bold; margin-left:5px;  vertical-align:top; margin-top:0px;}
+.cube_produit .contenu .prix .prix2 .strike{font-family:Arial; font-size:11px; color:#000; text-decoration:line-through;}
+.cube_produit .contenu .prix div.prix2 span.euro2{font-family:Arial; font-size:14px !important; color:#CC0000; font-weight:bold;}
+.cube_produit .contenu .prix .euro{font-family:Arial; font-size:16px; color:#F60; font-weight:bold;}
+.cube_produit .pied{ text-align:center; line-height:15px; border:0px; }
+.cube_produit .contenu .lg{ display:block; float:left; margin-top:0px; background-color:#f1ecf4;}
+.cube_produit .pied{ display:block; clear:left; width:190px; border:0px solid #ccc; }
+.cube_produit .pied button{ width:150px; text-align:center;}
+
+
+.cube_produit{ padding-left:10px; width:170px; }
+.cube_produit .linebrand{ height:28px; line-height:18px; vertical-align:middle; padding-right:5px; text-align:right }
+.cube_produit .linesolde,.cube_produit .linepromo,.cube_produit .linenouveaute{ position:absolute; z-index:2; top:0; left:10px }
+.cube_produit .linesolde{ background:url(../images/design_elements/picto-solde.png) 0 0 no-repeat; width:45px; height:15px }
+.cube_produit .linepromo{ background:url(../images/design_elements/picto-promo.png) 0 0 no-repeat; width:44px; height:15px }
+.cube_produit .linenouveaute{ background:url(../images/design_elements/picto-nouveaute.png) 0 0 no-repeat; width:32px; height:15px }
+.cube_produit .linepicture{ position:relative; text-align:center; margin-bottom:15px; }
+.cube_produit .linepicture a{ text-decoration:none }
+.cube_produit .linepicture img{ width:150px; height:150px; border:0 }
+.cube_produit .linename h2{ height:16px; width:170px; font-size:11px; line-height:12px; font-weight:normal !important; margin-bottom:10px; }
+.cube_produit .lineprice{ height:40px }
+.cube_produit .lineprice strong{ display:block; font-size:20px; color:#cc0000; }
+.cube_produit .lineprice strike{ font-size:12px; color:#757575 }
+.cube_produit .lineprice .pricebulle{ float:right; padding-left:4px; width:56px; height:31px; line-height:31px; vertical-align:middle; text-align:center; background:url(../images/design_elements/bulle.png) 0 0 no-repeat }
+.cube_produit .lineprice .pricebulle span{ color:white; font-size:16px }
+.cube_produit .lineavis{ height:16px }
+.cube_produit .linelivraison{ height:20px; padding-left:2px }
+.cube_produit .linelivraison strong{ font-size:13px; color:#1299ab }
+.cube_produit .linebutton{ text-align:left; }
+
+
+
+/* Cube souscategorie */
+.cube_souscategorie{ width:150px; border:1px solid #333333; float:left; margin:0 .6em; margin-bottom:8px; margin-left:0; }
+.cube_souscategorie:hover { border-color:#F60; }
+.cube_souscategorie .contenu{ width:150px; }
+.cube_souscategorie .contenu .image{ text-align:center; padding:.2em; margin-bottom:.8em; }
+.cube_souscategorie .contenu .image a img{ border:0; width:auto; height:80px; }
+.cube_souscategorie .contenu .nom{ text-align:center; height:50px; margin:5px; font-size:10px;}
+.cube_souscategorie .contenu .nom a{font-family:Arial; color:#333333; }
+.cube_souscategorie .contenu:hover > .nom a{ color:#F60; }
+.cube_souscategorie .contenu .nom .designation_produit_cube_souscategorie{font-size:11px; font-weight:normal !important; margin:0;}
+
+/* Cube wishlist */
+#wishlist { margin-left:50px; }
+.wishlist2 { padding-left:50px; }
+.cube_wishlist{ width:150px; border:1px solid #333333; float:left; margin:10px 20px; margin-left:0; }
+.cube_wishlist:hover{ border:1px solid #F60; }
+.cube_wishlist .entete{ line-height:25px; border-bottom:1px solid #ddf0f6; background-color:#fff; overflow:auto; }
+.cube_wishlist .entete .marque{ float:right; margin:0 2px 0 0; color:#333333; font-weight:bold; font-size:10px }
+.cube_wishlist .entete .marque:hover{ float:right; margin:0 2px 0 0; color:#00abdc; font-size:10px }
+.cube_wishlist .contenu{ width:150px; }
+.cube_wishlist .contenu .image{ text-align:center; padding:.2em; }
+.cube_wishlist .contenu .image a img{ border:0; width:auto; height:120px; }
+.cube_wishlist .contenu .nom{ text-align:center; height:50px; color:#333333; font-weight:bold; }
+.cube_wishlist .contenu .nom a{ text-align:center; height:50px; color:#333333; }
+.cube_wishlist .contenu:hover > .nom a{ text-decoration:none; color:#F60; }
+.cube_wishlist .contenu .prix{ text-align:center; color:#333333; font-weight:bold; font-size:16px; height:50px; }
+.cube_wishlist .contenu .prix .prix2{ text-align:center; }
+.cube_wishlist .contenu .prix .prix3{ text-align:center; font-size:14px; color:#333333; font-weight:bold; line-height:50px;}
+.cube_wishlist .contenu .prix .promo{ font-family:Arial; font-size:18px; color:#F30; text-align:center; font-weight:bold;}
+.cube_wishlist .contenu .prix .prix2 .strike{font-family:Arial; font-size:11px; color:#000; text-decoration:line-through;}
+.cube_wishlist .contenu .prix div.prix2 span.euro2{font-family:Arial; font-size:14px !important; color:#333333; font-weight:bold;}
+.cube_wishlist .contenu .prix .euro{font-family:Arial; font-size:16px; color:#F60; font-weight:bold;}
+.cube_wishlist .pied{ text-align:center; line-height:15px; }
+
+/* Cube association */
+.cube_association{ width:145px; border:1px solid #333333; margin:0 1px; height:223px; }
+.cube_association:hover{ border:1px solid #F60; }
+.cube_association .entete{ line-height:25px; border-bottom:1px solid #ddf0f6; background-color:#fff; overflow:auto; }
+.cube_association .entete .marque{ float:right; margin:0 .2em;  font-size:11px; color:#333333; font-weight:bold; }
+.cube_association .contenu{ width:145px; }
+.cube_association .contenu .image{ text-align:center; padding:2px;}
+.cube_association .contenu .image a img{ border:0; width:auto; height:120px; }
+.cube_association .contenu .nom{ text-align:center; height:50px; }
+.cube_association .contenu .nom a{ color:#333333; }
+.cube_association .contenu:hover > .nom a{ color:#F60; }
+.cube_association .contenu .prix{ text-align:right; padding:.2em; color:#333333; font-weight:bold; font-size:12px;  }
+.cube_association .pied{ text-align:center; line-height:25px; border-top:1px solid #aaa; background-color:#ccc; }
+
+/* Cube licence */
+.cube_licence{ margin:.2em; margin-left:0; border: 1px; width:145px; float:left; text-transform:uppercase; }
+.cube_licence p { text-align:center; margin:.2em; color:#333333; }
+.cube_licence p a{ text-align:center; margin:.2em; color:#333333; }
+.cube_licence p a:hover{ color:#F60; }
+.cube_licence p img{ border:1px solid #333333; width:120px; height:120px; }
+.cube_licence p img:hover{ border:1px solid #F60;}
+
+/* Cube marque */
+.cube_marque{ margin:.5em; margin-left:10px; border: 1px; width:145px; float:left; text-transform:uppercase; min-height:160px; }
+.cube_marque p{  text-align:center; margin-top:10px; margin-left:3px; color:#333333;}
+.cube_marque p a{color:#333333; }
+.cube_marque p a:hover{color:#F60; }
+.cube_marque p img{ border:1px solid #333333; width:120px; height:120px; }
+.cube_marque p img:hover{ border:1px solid #F60;}
+
+.lstmarques{ color:#333333; margin-left:35px; height:160px; padding-left:10px; width: 180px; border:1px solid #d1d1d1 ;}
+.lstmarques td { margin-left:10px !important;}
+.lstmarques p { color:#207ce5; font-size:16px; font-weight:bold; text-decoration:none; margin-top:10px }
+.lstmarques a{ color:#333333; list-style:none; font-weight:normal ; font-size:14px}
+.lstmarques a:hover{ color:#207ce5; text-decoration:underline; }
+.lstmarques tr{ border:1px solid #333333 !important; margin:5px !important ; height:150px !important; float:left; width:130px; list-style-type:none}
+
+/* Cube logproduits */
+.cube_logproduits{ overflow:hidden; margin:.5em; border:1px solid #333333; background-color:#fff; }
+.cube_logproduits:hover{ border:1px solid #F60; }
+.cube_logproduits .contenu a{display:block; padding:0px;}
+.cube_logproduits .contenu .image{float:left; margin-right:.5em;}
+.cube_logproduits .contenu .image img{border:0; height:45px; width:auto; margin:3px; }
+.cube_logproduits .contenu .nom span{color:#333333; font-size:11px; display:block; padding-top:5px; }
+.cube_logproduits .contenu .nom span:hover{ color:#F60;}
+
+/* Ont également achetés */
+#alsobuy{ background-color:white; overflow:auto; margin:1em 0; padding:0; overflow:hidden; }
+#alsobuy h4{ margin:.4em 0; }
+
+/* Carousel alsobuy*/
+#carousel_ab{ width:795px; }
+#carousel_ab ul{ margin:0; padding:0; }
+
+#carousel_ab ul li{ list-style:none; float:left; }
+
+#carousel_ab .carousel-bleft{ float:left; background-image:url(/images/carousel-gauche.png);   }
+#carousel_ab .carousel-bright{ float:right; background-image:url(/images/carousel-droite.png);   }
+
+#carousel_ab .carousel-bleft,#carousel_ab .carousel-bright{ margin:0; padding:0; position:relative; display:block; width:25px; height:225px; left:0; border:0; opacity:.95; filter:alpha(opacity=95); color:white; text-align:center; cursor:pointer; }
+
+#carousel_ab .carousel-bright:hover,#carousel_ab .carousel-bleft:hover{ opacity:1; filter:alpha(opacity=100); }
+
+/* Cube alsobuy */
+.cube_alsobuy{ width:145px; border:1px solid #333333; margin:0 1px; height:223px; }
+.cube_alsobuy:hover{ border:1px solid #F60; }
+.cube_alsobuy .entete{ line-height:25px; border-bottom:1px solid #ddf0f6; background-color:#fff; overflow:auto; }
+.cube_alsobuy .entete .marque{ float:right; margin:0 .2em;  font-size:11px; color:#333333; font-weight:bold; }
+.cube_alsobuy .contenu{ width:145px; }
+.cube_alsobuy .contenu .image{ text-align:center; padding:2px;}
+.cube_alsobuy .contenu .image a img{ border:0; width:auto; height:120px; }
+.cube_alsobuy .contenu .nom{ text-align:center; height:50px; }
+.cube_alsobuy .contenu .nom a{ color:#333333; }
+.cube_alsobuy .contenu:hover > .nom a{ color:#F60; }
+.cube_alsobuy .contenu .prix{ text-align:right; padding:.2em; color:#333333; font-weight:bold; font-size:12px;  }
+.cube_alsobuy .pied{ text-align:center; line-height:25px; border-top:1px solid #aaa; background-color:#ccc; }
+
+/* Carousel association */
+#carousel_assoc{ width:646px; margin:auto auto; }
+#carousel_assoc ul{ margin:0; padding:0; }
+#carousel_assoc ul li{ list-style:none; float:left; }
+#carousel_assoc .carousel-bleft{ float:left; background-image:url(/images/carousel-gauche.png);   }
+#carousel_assoc .carousel-bright{ float:right; background-image:url(/images/carousel-droite.png);   }
+#carousel_assoc .carousel-bleft,#carousel_assoc .carousel-bright{ margin:0; padding:0; position:relative; display:block; width:25px; height:225px; left:0; border:0; opacity:.95; filter:alpha(opacity=95); color:white; text-align:center; cursor:pointer; }
+#carousel_assoc .carousel-bright:hover,#carousel_assoc .carousel-bleft:hover{ opacity:1; filter:alpha(opacity=100); }
+
+/* carrousel et tab */
+#carrousel_tab{  margin-top:15px }
+#carrousel_tab .onglets{ padding:0 10px; overflow:hidden }
+#carrousel_tab .onglets h2{ float:left; display:block; width:150px; color:#1299ab; font-size:10px; cursor:pointer; font-weight:normal; border:1px solid #b9b9b9; border-bottom:0px; background-color:#fff; border-top-left-radius:7px; border-top-right-radius:7px; margin-right:10px; padding:3px 0; text-align:center; height:30px; line-height:25px; }
+#carrousel_tab .onglets .carrousel_selected{ background-color:#1299ab; color:#fff; border-bottom:0 }
+#carrousel_tab .carrousel_show{ display:block; }
+#carrousel_tab .carrousel_hide{ display:none; }
+
+.carrousel{ position:relative; z-index:1; overflow:hidden; }
+.carrousel_scrollleft,.carrousel_scrollright{ position:absolute; z-index:3; top:0; bottom:0; width:58px; background-color:#fff; text-align:center; border-radius:9px }
+.carrousel_scrollleft{ left:0; background:#FFF url(/images/home/prev.png) 1px 50% no-repeat; cursor:pointer }
+.carrousel_scrollright{ right:0; background:#FFF url(/images/home/next.png) 0 50% no-repeat; cursor:pointer }
+.carrousel_scrollleft:hover{ left:0; background:#FFF url(/images/home/prev_hover.png) 1px 50% no-repeat }
+.carrousel_scrollright:hover{ right:0; background:#FFF url(/images/home/next_hover.png) 0 50% no-repeat }
+.carrousel_scrollleft_end{ left:0; background:#FFF none !important; cursor:default; }
+.carrousel_scrollright_end{ right:0; background:#FFF none !important; cursor:default; }
+.carrousel_scrolltop,.carrousel_scrollbottom{ position:absolute; z-index:3; left:0; right:0; height:18px; text-align:center; cursor:pointer }
+.carrousel_scrolltop{ top:0; background:#fff url(/images/design_elements/carousel_top_arrow.jpg) 50% 50% no-repeat }
+.carrousel_scrollbottom{ bottom:0; background:#fff url(/images/design_elements/carousel_bottom_arrow.jpg) 50% 50% no-repeat }
+.carrousel_scrolltop_end, .carrousel_scrollbottom_end{ background:none; background-color:#fff }
+
+#carrousel_promo{ width:1000px; height:350px; float:left; }
+#carrousel_promo .carrousel_elt{ position:relative; width:170px; float:left; height:310px; margin:2px 15px; margin-top:20px }
+#carrousel_promo .carrousel_grpprevious{ position:absolute; left:-940px; right:940px }
+#carrousel_promo .carrousel_grpcurrent{ position:absolute; left:100px; right:40px }
+#carrousel_promo .carrousel_grpnext{ position:absolute; left:940px; right:-940px }
+
+#carrousel_one{ width:270px; height:370px; margin-top:25px }
+#carrousel_one .carouselH2{ position:absolute; z-index:5; width:220px; top:10px; left:15px; }
+#carrousel_one .carrousel_title{ position:absolute; margin-left:40px; z-index:3 }
+#carrousel_one .carrousel_elt{ position:relative; width:190px; float:left; height:250px; margin:2px 8px; margin-top:40px }
+#carrousel_one .carrousel_grpprevious{ position:absolute; left:-250px; right:250px }
+#carrousel_one .carrousel_grpcurrent{ position:absolute; left:40px; right:40px }
+#carrousel_one .carrousel_grpnext{ position:absolute; left:250px; right:-250px }
+
+
+/* CUBE CAROUSEL HOMEPAGE */
+
+.cube_carrousel{ width:170px; background-color:#fff }
+.cube_carrousel .linebrand{ height:28px; line-height:18px; vertical-align:middle; padding-right:5px; text-align:right }
+.cube_carrousel .linename{ margin:10px 0; height:25px; }
+
+.cube_carrousel .linebrand a{ color:#757575; }
+.cube_carrousel .linebrand a:hover{ color:#207ce5; }
+.cube_carrousel .linepicture{ position:relative; text-align:center; }
+.cube_carrousel .linepicture a{ text-decoration:none }
+.cube_carrousel .linepicture img{ width:150px; height:150px; border:0 }
+.cube_carrousel  .azoom{ position:absolute; right:5px; bottom:1px; width:25px; height:25px }
+.cube_carrousel  .azoom img{ width:25px; height:25px }
+.cube_carrousel .linename h3{ height:16px; width:150px; font-size:11px; line-height:12px; font-weight:normal !important; margin:0 0 10px 0; }
+.cube_carrousel .lineprice{ height:40px; float:left; }
+.cube_carrousel .lineprice strong{ display:block; font-size:20px; color:#ff3333; }
+
+.cube_carrousel .lineprice .strike{ text-decoration: line-through; font-size:12px; }
+.cube_carrousel .lineprice .pourcentage{ font-size:12px; }
+
+.cube_carrousel .lineavis{ height:25px }
+.cube_carrousel .linelivraison{ float:left; height: 20px; padding-top:8px; text-align:center; width: 170px; border-top:1px solid #cccccc; }
+.cube_carrousel .linelivraison span{ display:block; font-size:12px; color:#666; }
+
+.cube_carrousel .linebutton{ float:right; padding: 3px 10px 0 0; }
+.button_ajouter { display: block; text-decoration: none; background:url(/images/home/ajouter_au_panier.png) no-repeat; width:64px; height:34px; }
+.button_ajoute { display: block; text-decoration: none; background:url(/images/home/ajoute_au_panier.png) no-repeat; width:64px; height:34px; }

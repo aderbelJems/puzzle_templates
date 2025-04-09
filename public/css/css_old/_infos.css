@@ -1,0 +1,104 @@
+#conditionsgenerales,#utilisation,#confidentialite,#legal,#offrespromotionnelles,#presse,#affiliation,#qui,#fidelite,#themes{ width:960px; float:left; margin:20px; }
+#Plan a:hover,#qui a:hover{ text-decoration:underline; }
+
+
+
+#recrutement{width:930px;float:left; margin:20px; }
+#recrutement .titre_ss_cat1 { font-size: 12px ;color: #666666 ;margin:0px 0 0 40px;font-family:Arial, Helvetica, sans-serif;float:left; width:900px}
+#recrutement .offre{width:880px;float:left; margin:20px 0 0 45px; padding-top:20px;background: url("/images/design_elements/separateur_horiz_grey_white.gif") repeat-x scroll 0 0 transparent; }
+#recrutement .offre .offreTitle{font-size:16px; color: #EE6C03; font-family:Arial, Helvetica, sans-serif; font-weight:bold }
+#recrutement .offre p,#recrutement .offre p strong{ color:#666666; font-size:12px; }
+#recrutement .bloc_ss_cat{font-size: 12px ;color:#666666;float:left; margin-top:35px}
+#recrutement .bloc_ss_cat a,#recrutement .offre p a{font-size: 12px ; font-weight:bold; color:#666666; text-decoration:underline}
+#recrutement .bloc_ss_cat a:hover,#recrutement .offre p a:hover{color:#0198ab;}
+
+
+
+
+.h1infos{ font-size:20px; color:#EE6C03; font-weight:bold; margin:0; padding:0;}
+.h2infos{ font-size:14px; color:#EE6C03; font-weight:bold; margin:20px 0px; padding:0; width:700px;}
+.h3infos{ font-size:12px; color:#EE6C03; font-weight:bold; margin:0; padding:0;}
+.justify{text-align:justify;}
+.blocinfos{ font-size:12px; color:#666666; margin:0; padding:0;}
+.blocinfos2{ font-size:12px; color:#EE6C03; }
+
+.retour_haut_de_page{ margin:15px 0px; display:block; height:25px; }
+.txt_retour{ font-size:12px !important; color:#999; text-decoration:none; display:block; padding:5px; border:1px solid #ccc; width:160px; text-align:center; float:right; }
+
+.txt_h2{ font-size:14px; color:#EE6C03; font-weight:bold; padding:0; display:block;}
+.txt_h3{ font-size:12px; color:#EE6C03; margin:10px 0px; padding:0;}
+.txt_link{text-decoration:none}
+.txt_link_content{ font-size:12px !important; color:#666666; text-decoration:underline; }
+.txt_ancre{ font-size:12px !important; color:#666666; font-weight:bold; text-decoration:none; }
+.txt_ancre:hover{ text-decoration:underline; }
+.txt_ancre_bis{ font-size:12px !important; color:#666666; text-decoration:none; }
+.txt_ancre_bis:hover{ text-decoration:underline; }
+.txt_bold{ font-weight:bold; font-size:12px; color:#666666; margin:0; padding:0; text-align:justify; }
+
+
+/*PLAN DU SITE*/
+#Plan .CatPlan{ float:left; width:1000px; height:auto; border-top:1px solid #CCCCCC; background-color:#FFFFFF; }
+#Plan .CatPlan ul{ margin:0; list-style:none; float:left; }
+#Plan a{ font-size:12px; }
+#Plan .elementsposition{ margin:20px; }
+
+
+/*PAGE THEME*/
+
+#themes .ColBlock1{ padding:0px 0 15px 15px; width:216px; float:left;  margin-top:10px ; margin-bottom:15px;height: 460px; list-style:none }
+#themes .ColBlock3{ margin-top:10px ; padding:0px 0 15px 15px; width:235px;  float:left;height: 460px; list-style:none}
+#themes .ColBlock4{ margin-top:10px ; padding:0px 0 15px 15px; width:211px;  border-right: 1px solid #cccccc ; float:left;height: 445px; list-style:none }
+#themes .ColBlock5{ margin-top:10px ; padding:0px 0 15px 25px; width:225px; float:left;height: 460px; list-style:none }
+#themes .adultes{height:120px; width:710px;float:left}
+#themes .enfants{height:120px; width:247px;float:right}
+#themes .groupe-theme { float:left; margin-top:20px}
+
+
+/*PAGE ACCESSOIRES*/
+#accessoires .bloc-acc {width:300px; float:left; margin:7px}
+#accessoires .accessoiresPod{ float:left; padding: 9px 15px 20px 14px; margin:15px; width:258px; height:158px;border-bottom: 3px solid #F87A0C; }
+#accessoires .tiret { height:1px; width:255px; background-color:#e2e2e2; float:left; margin:6px 0 12px 0}
+#accessoires .img-acc {float:left; width:125px; height:125px; margin-right:5px; }
+#accessoires .txt-acc {float:left; width:125px; height:130px}
+
+
+
+
+/*PAGE TAILLES*/
+#taille .bloc-acc {width:324px; float:left; margin:2px}
+#taille .accessoiresPod{ float:left; padding:11px;width:296px; height:180px;border-bottom: 3px solid #F87A0C; margin-bottom:10px }
+#taille .tiret { height:1px; width:292px; background-color:#e2e2e2; float:left; margin:6px 0 12px 0}
+#taille .img-acc {float:left; width:125px; height:125px; margin-right:2px;margin-top: 7px; }
+#taille .txt-acc {float:left; width:168px; height:130px}
+
+
+/*PAGE FIDELITE*/
+#fidelite {color:#666666}
+.header_fidelite{ width:670px; height:105px; margin:10px 0 0 35px; float:left }
+#fidelite .fidelitePod{ float:left; padding: 4px 15px 20px 14px; margin:15px; width:258px; height:132px; }
+#fidelite .fideliteSpan{ float:left; display:block; width:340px; }
+#fidelite .fideliteSpan2{ float:left; display:block;}
+#fidelite .fideliteTxt{ margin:5px 0; }
+#fidelite .fidelitepromo{ float:left; width:184px; height:44px; margin:10px 0 0 35px; box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3) inset; border:1px solid #ffffff; border-radius:5px; background-color:#FFF; }
+#fidelite .fideliteSpanPromo{ display:block; width:174px; text-align:center; font-size: 23px; text-shadow: 1px 1px 0 #FFFFFF; padding-top: 10px; }
+
+
+#fidelite .texte-fidelite { margin-left:135px; float:left}
+#fidelite .titre-fidelite {margin-left:135px; float:left}
+#fidelite .txt-intro { width:600px; float:left; margin-top: 20px;}
+#fidelite .txt { width:740px; float:left; margin-top: 20px;}
+
+#fidelite .services-fi{ height:500px}
+#fidelite .bloc{ width:290px; height:180px; float:left; margin-top:20px; margin:27px 15px 15px 15px}
+#fidelite .txt-bloc{ text-align:center}
+
+#fidelite .tab-fi{ background-color:#f2f2f2; margin-left:130px}
+#fidelite .tab-fi td{border-top:1px solid #dadada; height:70px;margin: 0; padding: 0;border-left:1px solid #dadada; text-align:center}
+#fidelite .tab-fi tr{margin: 0; padding: 0;}
+
+
+
+
+
+
+

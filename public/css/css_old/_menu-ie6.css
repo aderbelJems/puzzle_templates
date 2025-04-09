@@ -1,0 +1,55 @@
+/**************************************************************************************************/	
+/* Onglets */
+#menu{ height:42px; background-color:rgb(245,245,245); overflow:hidden; font-size:12px; clear:both; }
+#menu .ul_menu_principal{ margin:0; padding:0; list-style:none; }
+
+#onglethome{ height:42px; width:50px; padding:0; margin:0; float:left; text-align:center; font-family:Arial; font-size:12px; color:#FFF ; background-image:url(/images/onglet_home.jpg); font-weight:bold}
+#onglethome .maison{ padding-left:2px}
+#onglettaille{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_violet.jpg); float:left; text-align:left; font-family:Arial; font-size:10px; color:#FFF ; font-weight:bold}
+#onglettheme{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_violet.jpg); float:left; text-align:left; font-family:Arial; font-size:10px; color:#FFF ; font-weight:bold}
+#ongletauteur{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_violet.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF; font-weight:bold }
+#ongletmarques-p{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_violet2.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF ; font-weight:bold}
+#ongletbois{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_bleu1.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF; font-weight:bold }
+#ongletphoto{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_bleu2.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF ; font-weight:bold}
+#ongletcolle{height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_violetf1.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF ; font-weight:bold}
+#onglettapis{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_violetf2.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF ; font-weight:bold}
+#ongletcadeau{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_orange1.jpg); float:left; text-align:left; font-family:Arial; font-size:12px; color:#FFF ; font-weight:bold}
+#ongletpromotion{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_rouge.jpg); float:left; text-align:left; font-family:Arial; font-size:10px; color:#FFF ; font-weight:bold}
+#ongletnouveaute{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_rouge.jpg); float:left; text-align:left; font-family:Arial; font-size:10px; color:#FFF ; font-weight:bold}
+#onglettop{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_orange.jpg); float:left; text-align:left; font-family:Arial; font-size:10px; color:#FFF ; font-weight:bold}
+#ongletcatalogue{ height:42px; width:73px; padding:5px 0 0 0; background-image:url(/images/onglet_orange2.jpg); float:left; text-align:left; font-family:Arial; font-size:10px; color:#FFF; font-weight:bold}
+
+.dt_menu{list-style:none; margin:0; padding:0; padding-top:7px; text-align:center;}
+.dt_menu a{ color:#FFFFFF;font-family:Arial; font-size:12px;}
+.dt_menu a:hover{ color:#FFFFFF;font-family:Arial; font-size:12px;}
+.dt_menu2{list-style:none; margin:0; padding:0; padding-top:13px; text-align:center;}
+.dt_menu2 a{ color:#FFFFFF;font-family:Arial; font-size:12px;}
+.dt_menu2 a:hover{ color:#FFFFFF;font-family:Arial; font-size:12px;}
+
+/**************************************************************************************************/	
+
+/**************************************************************************************************/	
+/* Bloc cachés */
+	
+.ul_menu_deroulant{ color:#330066; font-family:Arial; font-size:12px; font-weight:normal !important; text-align:left; list-style:none; margin:0; padding:0; line-height:3px}
+.ul_menu_deroulant li a:hover{color:#ff6400}
+	
+#taille{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:350px; margin:0 auto; border:2px solid #512d84; background-color:#fff; }
+#theme{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:740px; margin:0 auto; border:2px solid #512d84; background-color:#fff; }
+#auteur{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:280px; margin:0 auto; border:2px solid #512d84; background-color:#fff; }
+#marques-p{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:450px; margin:0 auto; border:2px solid #512d84; background-color:#fff;  }
+#photo{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:440px; margin:0 auto; border:2px solid #0468bd; background-color:#fff; }
+#colle{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:460px; margin:0 auto; height:200px; max-height:200px; min-height:200px; border:2px solid #ff6400; background-color:#fff; }
+#tapis{ z-index:30; position:absolute; padding:10px 10px; top:199px; width:185px; margin:0 auto; border:2px solid #30165c; background-color:#fff;}
+
+
+
+.divhidden{ display:none; }
+.divvisible{ display:block; }
+.divvisible a{ display:block; padding:2px; line-height:16px; font-size:12px; color:#333333; }
+
+.col{ width:50%; height:100%; float:left; }
+.col1{ width:210px; height:100%; float:left;}
+.col2{ width:260px; height:100%; float:left;}
+.col3{ width:150px; height:100%; float:left;}
+/**************************************************************************************************/	

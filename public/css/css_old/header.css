@@ -1,0 +1,71 @@
+/* Entête Website - HomePage */
+
+<!--#HeaderContent{ position:relative; height:145px; width:1000px; margin:0; z-index:50; background: url("/images/fond-leader-arti8.jpg") repeat scroll 0 0 #FFFFFF }-->
+#HeaderContent{ position:relative; height:145px; width:1000px; margin:0; z-index:50; background: #FFFFFF }
+
+#HeaderContent .accroche{ position:absolute; top:9px; left:20px; font-size:10px }
+#HeaderContent #logo{ position:absolute; height:109px; width:284px; left:22px; top:15px; }
+
+/* Entête Website - Moteur de Recherche - HomePage */
+#HeaderContent .search{ position:absolute; z-index:50; width:300px; height:60px; left:317px; top:63px;}
+
+
+
+
+#HeaderContent .search .form_searchbox{ margin:10px 0 0 13px; }
+#HeaderContent .search .input_searchbox{ display:block; float:left; width:175px; border:1px solid #999; height:34px; border-radius: 6px; margin:0; padding:0; margin-right:13px; font-size:12px; color:#666; padding-left:40px; background:#fff url(/images/design_elements/loupe.png) no-repeat 0 0; }
+#HeaderContent .search .button_searchbox{ display:block; left:193px;position:absolute ; margin-top:2px}
+#HeaderContent .search .text_suggest{font-size:10px; color:#999; display:block; float:left; margin:4px 0 0 15px;}
+
+/* Entête Website - Auto Suggestion - Moteur de Recherche - HomePage */
+#divautosuggest{ position:absolute; width:205px; left:330px; top:131px; z-index:100; padding:5px; border:1px solid #999; border-top:1px dashed #e4e3e3; border-radius:0px 0px 9px 9px; border-radius:0px 0px 9px 9px; visibility:hidden; background-color:#FFF; }
+#divautosuggest ul{ list-style: none; overflow: hidden; text-align:inherit; }
+#divautosuggest ul li{ color:#666666; font-size:14px; padding:0; padding-left:5px; margin:1px; text-align:left; display:block; }
+#divautosuggest ul li a{ color: #666666; font-size:14px; text-decoration:none; background-color:transparent; display:block; padding:2px; }
+#divautosuggest ul li a strong,#divautosuggest ul li a.selected strong{ color: #666666; font-size:14px; }
+#divautosuggest ul li a.selected{ background-color:#f3f3f3; display:block; font-size:14px; margin-right:5px; width:364px; }
+#divautosuggest span{ color:#999999; text-align:right; font-size:10px; padding:2px; display:block; }
+#divautosuggest ul li.catSuggest a{ color:#123A9F; font-size:14px; }
+
+/* Entête Website - Panier et Espace client - HomePage */
+#HeaderContent .EspaceClientPanier{ position:absolute; width:295px; right:0px; top:4; }
+#HeaderContent .EspaceClientPanier .EspaceClient{ overflow:hidden; height:28px; text-align:right  }
+#HeaderContent .EspaceClientPanier .EspaceClient .EspaceClientPanierTitle{ display:block; float:right; padding-top:9px; padding-bottom:5px; font-size:12px }
+#HeaderContent .EspaceClientPanier .EspaceClient .EspaceClientPanierTitleLeft{ padding-right:20px }
+#HeaderContent .EspaceClientPanier .EspaceClient .EspaceClientPanierTitleRight{ border-left:1px solid #FF7B00; padding-left:20px; }
+
+#HeaderContent .img-service {float:left; margin-left:636px;margin-top:49px; z-index:11; position:absolute}
+
+
+#HeaderContent .EspaceClientPanier .Panier{ position:relative; margin-top:44px; z-index:10}
+#HeaderContent .EspaceClientPanier .Panier .PanierImg{ position:absolute;  margin-left:111px; margin-top:20px }
+#HeaderContent .EspaceClientPanier .Panier .PanierTxt{ display:block; padding-left:148px; padding-top:24px ; color:#333333}
+#HeaderContent .EspaceClientPanier .Panier .PanierTxt .PanierTitle{ font-size:22px }
+#HeaderContent .EspaceClientPanier .Panier .PanierTxt .PanierSubTitle{ font-size:12px }
+#HeaderContent .EspaceClientPanier .Panier .PanierLivraison{ display:block; margin-top:7px; padding:2px 0; padding-left:85px; border-top:1px solid #000; border-bottom:1px solid #000; font-size:10px; }
+
+/* Entête Website - Service Client - HomePage */
+#HeaderContent .ServiceClient{ position:absolute; top:15px; left:330px; }
+#HeaderContent .ServiceClient img{ display:block; float:left; }
+#HeaderContent .ServiceClient .ServiceClientTxt{ display:block; float:left; margin:0px 0 0 176px; font-size:17px }
+
+
+/* panier déroulant */
+#HeaderContent .EspaceClientPanier .global {display:none; height:auto; margin-top: 46px; position: absolute; width: 279px; z-index: 9;}
+#HeaderContent .EspaceClientPanier .header {background:url(/images/home/back-panier1.png) no-repeat 0 0;  height:81px;width: 279px}
+#HeaderContent .EspaceClientPanier .centre {max-height:195px;overflow: auto; width: 257px; border-right:1px solid #cccccc; border-left:1px solid #cccccc; background-color: #fff; padding:10px}
+#HeaderContent .EspaceClientPanier .ligne {width:240px; height:58px; padding:5px}
+#HeaderContent .EspaceClientPanier .image {border:1px solid #d8d8d8; float:left; margin-right:3px; height:50px; width:50px}
+#HeaderContent .EspaceClientPanier .titre {font-size:11px; color:#666666; float:left; width:170px; height:44px; padding:3px}
+#HeaderContent .EspaceClientPanier .quantite {color:#F60;color:#EE6C03; font-size:11px}
+#HeaderContent .EspaceClientPanier .footer {float:left;padding:13px 0 0px 30px;border-right:1px solid #cccccc; border-left:1px solid #cccccc; border-bottom:1px solid #cccccc;background-color: #fff;width: 247px; height:42px}
+
+
+.txt-drapeau{width:180px; float:left; margin:2px 0; line-height:22px;}
+div.txt-drapeau:hover {background-color:#eee; cursor:pointer;}
+.txt-pays{float:left;color:#666666;padding:3px 5px 0 5px;}
+.drap-pays{float:left;padding:2px;margin-right:6px;}
+.choix-pays{float:left; top:23px; background-color:#ffffff;position:absolute; height:auto; width:180px; border:1px solid#ccc; border-top:0px; padding-top:3px}
+.img-choix{float:left; top:3px;position:relative; height:20px; width:30px}
+.select-pays{float:left; top:3px; background-color:#ffffff;position:relative; height:19px; width:150px;border:1px solid#ccc; border-bottom:0px}
+.nom-pays{float:left;color:#666666;padding:3px 5px 0 5px;}
