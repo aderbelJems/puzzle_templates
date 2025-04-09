@@ -1,0 +1,11 @@
+.heart-h{float:left; height:24px; width:24px; background-image:url(/images/heart.svg); position:absolute;margin-top:10px}
+.heart2{color:#ffffff;background-color:#FF780F; border-radius:20px;font-size: 8px;font-style: normal;font-weight: 700;line-height: normal;position: absolute;top: 8px;right: 4px;width: 16px;height: 16px;display: flex;align-items: center;justify-content: center;}
+.nbPanier {color:#ffffff;background-color:#FF780F; border-radius:20px;font-size: 8px;font-style: normal;font-weight: 700;line-height: normal;position: absolute;top: 10px;right: 4px;width: 16px;height: 16px;display: flex;align-items: center;justify-content: center;}
+.nbWishList, .nbPanier {display: none;}
+.nbWishList.flex, .nbPanier.flex {display: flex;}
+.ref-site {font-size:16px!important; margin-top: 1px!important;}
+.typo-nbr {background-color: #359AA5!important; width:7px!important; font-size:16px!important}
+body {font-family: Inter, Arial, Helvetica, sans-serif;font-size: 14px;line-height: 1.42857143;color: #292929;margin: 0;background-position: center top;font-weight: 400;background-color: #FAFAFA;}
+.typo-nbr {
+    background-color: #359AA5!important;width:7px!important; font-size:14px!important; height:18px!important}
+.ref-site {font-size:14px!important; margin-top: 1px!important;margin-left: 8px!important;}

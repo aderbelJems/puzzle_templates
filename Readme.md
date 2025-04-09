@@ -6,7 +6,8 @@ composer create-project puzzle_themes/fr puzzlefr
 ```
 Depuis la racine du projet executer :
 ```bash
-mv themes/puzzlefr/public/* public/
+mkdir public/puzzlefr
+mv themes/puzzlefr/public/* public/puzzlefr
 
 ```
 Choisissez votre nouveau thème sur le canal :
