@@ -3,11 +3,11 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "type": "project",
-    "name": "puzzle_themes/fr",
+    "name": "puzzlethemes/fr",
     "authors": [
         {
-            "name": "Hermi Montassar",
-            "email": "Hermi@Hermi.com"
+            "name": "Ali DERBEL",
+            "email": "aderbel@jems-group.com"
         }
     ],
     "extra": {
