@@ -1,6 +1,26 @@
 {% extends '@SyliusShop/layout.html.twig' %}
 {% block body %}
+    <div class="container cont-site">
+        <div class="row-fluid">
     {% include '@SyliusShop/homepage/sliderHome.html.twig' %}
-
+    <div class="acc-cont-f" style="">
+        <div class="row">
+            {% include '@SyliusShop/homepage/meilleuresVentes.html.twig' %}
+        </div>
+        <div class="row">
+            {% include '@SyliusShop/homepage/nosCategories.html.twig' %}
+        </div>
+        <div class="row">
+            {% include '@SyliusShop/homepage/nosNouveaute.html.twig' %}
+        </div>
+        <div class="row">
+            {% include '@SyliusShop/homepage/adultesEnfants.html.twig' %}
+        </div>
+        <div class="row">
+            {% include '@SyliusShop/homepage/nosMarques.html.twig' %}
+        </div>
+    </div>
+        </div>
+    </div>
 {% endblock %}
 
